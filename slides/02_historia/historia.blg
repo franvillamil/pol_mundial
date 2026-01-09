@@ -1,0 +1,5 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'historia.blg'
+[51] biber-darwin:340> INFO - === Fri Jan  9, 2026, 11:14:12
+[61] Biber.pm:415> INFO - Reading 'historia.bcf'
+[128] Utils.pm:395> WARN - No data sources defined!
