@@ -10,20 +10,20 @@ layout: default
 
 ### Calendario
 
-| Semana | Tema  | Slides | Lecturas |
+| Semana | Tema  | Slides | Seminario |
 | :---        | :---   | :--- | :--- |
-| Enero 27   | 1. Introducción |||
-| Febrero 3  | 2. El mundo de hoy | [[PDF](./slides/01_intro/intro.pdf)] ||
-| Febrero 10 | 3. Actores e intereses | [[PDF](./slides/01_intro/intro.pdf)] ||
-| Febrero 17 | 4. El problema de la guerra | [[PDF](./slides/01_intro/intro.pdf)] ||
-| Febrero 24 | 5. Guerras y organizaciones | [[PDF](./slides/01_intro/intro.pdf)] ||
-| Marzo 3    | 6. Terrorismo | [[PDF](./slides/01_intro/intro.pdf)] ||
-| Marzo 10   | 7. **Examen parcial** | [[PDF](./slides/01_intro/intro.pdf)] ||
-| Marzo 17   | 8. Leyes y normas | [[PDF](./slides/01_intro/intro.pdf)] ||
-| Marzo 24   | 9. Derechos Humanos | [[PDF](./slides/01_intro/intro.pdf)] ||
+| Enero 27   | 1. Introducción | [[PDF](./slides/01_intro/intro.pdf)] ||
+| Febrero 3  | 2. El mundo de hoy |||
+| Febrero 10 | 3. Actores e intereses |||
+| Febrero 17 | 4. El problema de la guerra |||
+| Febrero 24 | 5. Guerras y organizaciones |||
+| Marzo 3    | 6. Terrorismo |||
+| Marzo 10   | 7. **Examen parcial** |||
+| Marzo 17   | 8. Leyes y normas |||
+| Marzo 24   | 9. Derechos Humanos |||
 | *Marzo 31* | *Semana Santa* |||
-| Abril 7    | 10. Comercio | [[PDF](./slides/01_intro/intro.pdf)] ||
-| Abril 14  | 11. Finanzas y dinero | [[PDF](./slides/01_intro/intro.pdf)] ||
-| Abril 21  | 12. Desarrollo económico | [[PDF](./slides/01_intro/intro.pdf)] ||
-| Abril 28  | 13. Futuro | [[PDF](./slides/01_intro/intro.pdf)] ||
+| Abril 7    | 10. Comercio |||
+| Abril 14  | 11. Finanzas y dinero |||
+| Abril 21  | 12. Desarrollo económico |||
+| Abril 28  | 13. Futuro |||
 | Mayo 5    | *No hay clase* |||
