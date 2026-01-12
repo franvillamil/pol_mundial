@@ -2,11 +2,21 @@
 layout: default
 ---
 
-## Segundo cuatrimestre 2026
+## Segundo cuatrimestre 2025-2026
 
-- [[**SYLLABUS**]](https://raw.githack.com/franvillamil/syllabi/master/current/syllabus_war_peace_political_violence.pdf)
-- [Download seminar readings (Aula Global)](https://aulaglobal.uc3m.es/mod/folder/view.php?id=5133021)
-- [Resources / background readings](./resources.html)
+- [**SYLLABUS**](https://raw.githack.com/franvillamil/syllabi/master/current/syllabus_political_mundial.pdf)
+
+### Horarios
+
+#### Grupo 88
+
+- **Magistral**: Martes 9:00h-10:30h, Aula 9.2.03
+- **Seminario**: Viernes 10:45h-12:15h, Aula 15.0.16
+
+#### Grupo 188
+
+- **Magistral**: Martes 16:15h-17:45h, Aula 4.1.03
+- **Seminario**: Martes 18:00h-19:30h, Aula 4.1.06
 
 ### Programa
 
