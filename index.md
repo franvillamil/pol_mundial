@@ -8,7 +8,14 @@ layout: default
 
 ### Horarios
 
-#### Grupo 88
+|           | Magistral           | Seminario           |
+| :---      | :---                | :---                |
+| Grupo 88  | Martes, 9:00-10:30  | Viernes 10:45-12:15 |
+|           | Aula 9.2.03         | Aula 15.0.16        |
+| Grupo 188 | Martes, 16:15-17:45 | Martes 18:00-19.30  |
+|           | Aula 4.1.03         | Aula 4.1.06         |
+
+<!-- #### Grupo 88
 
 - **Magistral**: Martes 9:00h-10:30h, Aula 9.2.03
 - **Seminario**: Viernes 10:45h-12:15h, Aula 15.0.16
@@ -16,7 +23,7 @@ layout: default
 #### Grupo 188
 
 - **Magistral**: Martes 16:15h-17:45h, Aula 4.1.03
-- **Seminario**: Martes 18:00h-19:30h, Aula 4.1.06
+- **Seminario**: Martes 18:00h-19:30h, Aula 4.1.06 -->
 
 ### Programa
 
