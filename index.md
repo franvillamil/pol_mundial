@@ -4,8 +4,6 @@ layout: default
 
 ## Segundo cuatrimestre 2025-2026
 
-- [**SYLLABUS**](https://raw.githack.com/franvillamil/syllabi/master/current/syllabus_political_mundial.pdf)
-
 ### Horarios
 
 |           | Magistral           | Seminario           |
@@ -14,16 +12,6 @@ layout: default
 |           | Aula 9.2.03         | Aula 15.0.16        |
 | Grupo 188 | Martes, 16:15-17:45 | Martes 18:00-19.30  |
 |           | Aula 4.1.03         | Aula 4.1.06         |
-
-<!-- #### Grupo 88
-
-- **Magistral**: Martes 9:00h-10:30h, Aula 9.2.03
-- **Seminario**: Viernes 10:45h-12:15h, Aula 15.0.16
-
-#### Grupo 188
-
-- **Magistral**: Martes 16:15h-17:45h, Aula 4.1.03
-- **Seminario**: Martes 18:00h-19:30h, Aula 4.1.06 -->
 
 ### Programa
 
