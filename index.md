@@ -20,10 +20,12 @@ layout: default
 
 ### Programa
 
+<!-- [[PDF](./slides/01_intro/intro.pdf)] -->
+
 | Semana | Tema  | Slides | Seminario |
 | :---        | :---   | :--- | :--- |
-| Enero 27   | 1. Introducción | [[PDF](./slides/01_intro/intro.pdf)] | *No seminario*|
-| Febrero 3  | 2. El mundo hoy || Lectura/Datos? |
+| Enero 27   | 1. *No hay clase* || *No seminario*|
+| Febrero 3  | 2. Introducción: El mundo hoy || Lectura/Datos? |
 | Febrero 10 | 3. Actores e intereses || Actividad? |
 | Febrero 17 | 4. El problema de la guerra || Lectura |
 | Febrero 24 | 5. Guerras y organizaciones || Lectura |

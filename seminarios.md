@@ -1,6 +1,6 @@
 ## Actividades en seminarios (reducidas)
 
-### Semana 1 (Introducción)
+### Semana 1
 
 *No hay seminario*
 
@@ -47,3 +47,7 @@ Lectura? Why nations fail?
 ### Semanas 12 (Futuro) y 13 (Resumen)
 
 Presentaciones.
+
+### Semana 14
+
+*No hay clase*
