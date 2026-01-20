@@ -33,4 +33,4 @@ layout: default
 | Abril 14  | 11. Desarrollo económico || Lectura? |
 | Abril 21  | 12. Futuro y problemas emergentes || Presentaciones |
 | Abril 28  | 13. Resumen/Presentaciones || Presentaciones |
-| Mayo 5    | 14. *No hay clase* |||
+| Mayo 5    | 14. *No hay clase*/Refuerzo |||
