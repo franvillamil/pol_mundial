@@ -24,6 +24,11 @@ layout: default
 
 - Frieden, Lake & Schultz: Capítulos 4 y 5
 
+#### Otros textos
+
+- Henry Farrell & Abraham Newman, [Weaponized Interdependence: How Global Economic Networks Shape State Coercion](https://doi.org/10.1162/isec_a_00351) (*International Security*, 2019).
+- Henry Farrell & Abraham Newman, [*Underground Empire: How America Weaponized the World Economy*](https://www.politicaexterior.com/articulo/la-raices-digitales-del-imperio/) (Penguin, 2023). 
+
 ### Terrorismo
 
 - Frieden, Lake & Schultz: Capítulo 6
