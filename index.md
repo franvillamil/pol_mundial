@@ -20,17 +20,17 @@ layout: default
 | Semana | Tema  | Slides | Seminario |
 | :---        | :---   | :--- | :--- |
 | Enero 27   | 1. *No hay clase* || *No seminario*|
-| Febrero 3  | 2. Introducción & El mundo hoy || Lectura/Datos? |
-| Febrero 10 | 3. Actores e intereses || Actividad? |
-| Febrero 17 | 4. El problema de la guerra || Lectura |
-| Febrero 24 | 5. Guerras y organizaciones || Lectura |
-| Marzo 3    | 6. Terrorismo || Lectura |
-| Marzo 10   | 7. Leyes, normas y DDHH || Lectura |
+| Febrero 3  | 2. [Introducción & El mundo hoy](resources#el-mundo-hoy) || Lectura/Datos? |
+| Febrero 10 | 3. [Actores e intereses](resources#actores-e-intereses) || Actividad? |
+| Febrero 17 | 4. [El problema de la guerra](resources#el-problema-de-la-guerra) || Lectura |
+| Febrero 24 | 5. [Guerras y organizaciones](resources#guerras-y-organizaciones) || Lectura |
+| Marzo 3    | 6. [Terrorismo](resources#terrorismo) || Lectura |
+| Marzo 10   | 7. [Leyes, normas y DDHH](resources#leyes-normas-y-ddhh) || Lectura |
 | Marzo 17   | 8. **Examen parcial** || Datos overview |
-| Marzo 24   | 9. Comercio internacional || Lectura |
+| Marzo 24   | 9. [Comercio internacional](resources#comercio-internacional) || Lectura |
 | *Marzo 31* | *Semana Santa* |||
-| Abril 7    | 10. Finanzas y dinero || Datos? |
-| Abril 14  | 11. Desarrollo económico || Lectura? |
-| Abril 21  | 12. Futuro y problemas emergentes || Presentaciones |
+| Abril 7    | 10. [Finanzas y dinero](resources#finanzas-y-dinero) || Datos? |
+| Abril 14  | 11. [Desarrollo económico](resources#desarrollo-económico) || Lectura? |
+| Abril 21  | 12. [Futuro y problemas emergentes](resources#futuro-y-problemas-emergentes) || Presentaciones |
 | Abril 28  | 13. Resumen/Presentaciones || Presentaciones |
 | Mayo 5    | 14. *No hay clase*/Refuerzo |||
