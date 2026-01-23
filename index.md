@@ -20,7 +20,7 @@ layout: default
 | Semana | Tema  | Slides | Seminario |
 | :---        | :---   | :--- | :--- |
 | Enero 27   | 1. *No hay clase* || *No seminario*|
-| Febrero 3  | 2. Introducción: El mundo hoy || Lectura/Datos? |
+| Febrero 3  | 2. Introducción & El mundo hoy || Lectura/Datos? |
 | Febrero 10 | 3. Actores e intereses || Actividad? |
 | Febrero 17 | 4. El problema de la guerra || Lectura |
 | Febrero 24 | 5. Guerras y organizaciones || Lectura |
