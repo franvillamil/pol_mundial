@@ -10,7 +10,7 @@ layout: default
 | :---      | :---                | :---                |
 | Grupo 88  | Martes, 9:00-10:30  | Viernes 10:45-12:15 |
 |           | Aula 9.2.03         | Aula 15.0.16        |
-| Grupo 188 | Martes, 16:15-17:45 | Martes 18:00-19.30  |
+| Grupo 188 | Martes, 16:15-17:45 | Jueves 18:00-19.30  |
 |           | Aula 4.1.03         | Aula 4.1.06         |
 
 ### Programa
