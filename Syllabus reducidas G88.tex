@@ -1,0 +1,334 @@
+\documentclass[11pt, a4paper]{article}
+%\usepackage{geometry}
+\usepackage[inner=1.5cm,outer=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\pagestyle{empty}
+\usepackage{graphicx}
+\usepackage{fancyhdr, lastpage, bbding, pmboxdraw}
+\usepackage{ragged2e}
+\usepackage[usenames,dvipsnames]{color}
+\definecolor{darkblue}{rgb}{0,0,.6}
+\definecolor{darkred}{rgb}{.7,0,0}
+\definecolor{darkgreen}{rgb}{0,.6,0}
+\definecolor{red}{rgb}{.98,0,0}
+\usepackage[colorlinks,pagebackref,pdfusetitle,urlcolor=darkblue,citecolor=darkblue,linkcolor=darkred,bookmarksnumbered,plainpages=false]{hyperref}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\pagestyle{fancyplain}
+\fancyhf{}
+\lhead{ \fancyplain{}{Política Mundial} }
+%\chead{ \fancyplain{}{} }
+\rhead{ \fancyplain{}{UC3M––Segundo cuatrimestre 2025/26} }
+%\rfoot{\fancyplain{}{page \thepage\ of \pageref{LastPage}}}
+\fancyfoot[RO, LE] {Página \thepage\ de \pageref{LastPage} }
+\thispagestyle{plain}
+
+%%%%%%%%%%%% LISTING %%%
+\usepackage{listings}
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\usepackage{verbatim} % used to display code
+\usepackage{fancyvrb}
+\usepackage{acronym}
+\usepackage{amsthm}
+\VerbatimFootnotes % Required, otherwise verbatim does not work in footnotes!
+
+
+
+\definecolor{OliveGreen}{cmyk}{0.64,0,0.95,0.40}
+\definecolor{CadetBlue}{cmyk}{0.62,0.57,0.23,0}
+\definecolor{lightlightgray}{gray}{0.93}
+
+
+
+\lstset{
+%language=bash,                          % Code langugage
+basicstyle=\ttfamily,                   % Code font, Examples: \footnotesize, \ttfamily
+keywordstyle=\color{OliveGreen},        % Keywords font ('*' = uppercase)
+commentstyle=\color{gray},              % Comments font
+numbers=left,                           % Line nums position
+numberstyle=\tiny,                      % Line-numbers fonts
+stepnumber=1,                           % Step between two line-numbers
+numbersep=5pt,                          % How far are line-numbers from code
+backgroundcolor=\color{lightlightgray}, % Choose background color
+frame=none,                             % A frame around the code
+tabsize=2,                              % Default tab size
+captionpos=t,                           % Caption-position = bottom
+breaklines=true,                        % Automatic line breaking?
+breakatwhitespace=false,                % Automatic breaks only at whitespace?
+showspaces=false,                       % Dont make spaces visible
+showtabs=false,                         % Dont make tabls visible
+columns=flexible,                       % Column format
+morekeywords={__global__, __device__},  % CUDA specific keywords
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{center}
+{\Large \textsc{Política Mundial \\ {\small{Universidad Carlos III de Madrid}}}
+\end{center}
+\begin{center}
+Seminarios segundo cuatrimestre \\
+2025 / 2026
+\end{center}
+
+\begin{center}
+\rule{6in}{0.4pt}
+\begin{minipage}[t]{.75\textwidth}
+\begin{tabular}{llcccll}
+\textbf{Profesor seminarios:} & Luis Azores & & &  & Grupo 88 & Aula 15.0.16   \\
+\textbf{Email:} &  \href{mailto:lazores@pa.uc3m.es}{lazores@pa.uc3m.es} & & & &  &  10:45-12:15
+\end{tabular}
+\end{minipage}
+\rule{6in}{0.4pt}
+\end{center}
+\vspace{.5cm}
+\setlength{\unitlength}{1in}
+\renewcommand{\arraystretch}{2}
+
+\noindent\textbf{Páginas webs del curso:} \begin{enumerate}
+\item \href{https://login.uc3m.es/index.php/CAS/login?service=https%3A%2F%2Faulaglobal.uc3m.es%2Flogin%2Findex.php}{Aula Global}
+\item \href{https://franvillamil.github.io/pol_mundial/}{Web de la asignatura}
+\end{enumerate}
+
+\vskip.15in
+\noindent\textbf{Tutorías:} Después de clase o con cita previa.  Se anima al alumnado a ponerse en contacto con el profesor en cualquier momento.
+
+\vspace*{.15in}
+
+\noindent \textbf{Programa del curso (orientativo)}
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 1: no hay seminario (30/01)}}} 
+\end{flushleft}
+\end{minipage}
+\end{center}
+
+\begin{center} 
+\begin{minipage}{6in}
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 2: El mundo hoy (06/02)}}}\vspace{0,5em}
+
+Introducción de las diferentes bases de datos que utilizaremos a lo largo del curso (UCDP, COW, QoG, entre otras).\vspace{0,5em}
+
+Breve artículo sobre los principales conflictos después de la Guerra Fría. ¿Qué tipo de conflictos son los más frecuentes desde 1989? ¿En qué zonas se concentran dichos conflictos? ¿Qué explicación podemos darle a estos datos?\vspace{0,5em}
+
+\href{https://ourworldindata.org/conflict-deaths-breakdown}{Artículo Our World in Data}
+\end{minipage}
+\end{center}
+
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 3: Actores e intereses (13/02)}}}
+\end{flushleft}
+¿Qué es un estado fallido? Desde el \href{https://fragilestatesindex.org/analytics/fsi-heat-map/}{Fragile States Index} se pueden comparar las clasificaciones y puntuaciones de los países de todo el mundo. \vspace{0,5em}
+
+¿Cuáles son algunos ejemplos de estados fallidos en el sistema internacional hoy? ¿Qué problemas generan estos estados fallidos para el sistema internacional? ¿Bajo qué condiciones es legítimo que otros estados violen la soberanía formal de un estado fallido?
+\end{minipage}
+\end{center}
+
+
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 4: El problema de la guerra (20/02)}}}
+\end{flushleft}
+Las relaciones entre China y EEUU han evolucionado durante los últimos años. ¿Cuáles son los principales intereses económicos, ideológicos y de seguridad de ambas potencias? ¿Cuál es el papel de Europa en este nuevo orden mundial?
+
+\begin{itemize}
+    \item \emph{Graham Allison, ‘The Thucydides’ Trap: Are the U.S. and China headed for war?’ The Atlantic, 24/09/2015
+} \textbf{Obligatoria}
+
+\item \emph{Dexter Filkins, A Dangerous Game Over Taiwan, The New Yorker, 14/11/2022} \\ \textbf{Obligatoria}
+\end{itemize}
+\end{minipage}
+\end{center}
+
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 5: Guerras y organizaciones (27/02)}}}
+\end{flushleft}
+¿Por qué las democracias rara vez entran en guerra entre sí? \vspace{0,5em}
+
+La teoría de la paz democrática sostiene que los Estados democráticos tienen menos probabilidades de librar guerras contra otras democracias. ¿Qué mecanismos dentro de los sistemas democráticos podrían explicar este patrón? ¿Existen excepciones históricas a esta tendencia? En caso afirmativo, ¿qué nos revelan sobre los límites de la teoría?
+
+\begin{itemize}
+    \item \emph{Michael Doyle, ‘Why They Don’t Fight: The Surprising Endurance of the Democratic Peace,’ Foreign Affairs, July/August 2024} \textbf{Obligatoria}
+
+\item \emph{Blas Moreno (entrevista a Peter Turchin), ‘“Estados Unidos va hacia una guerra civil. Quizá ya sea tarde para evitarlo”,’ El Orden Mundial, 12/05/2024} \textbf{Optativa}
+
+\item \emph{Diego E. Barros, ‘Por qué Estados Unidos no está al borde de una guerra civil,’ El Orden Mundial, 23/09/2025} \textbf{Optativa} 
+\end{itemize}
+
+\end{minipage}
+\end{center}
+
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 6: Terrorismo (06/03)}}}
+\end{flushleft}
+
+Desde el \href{https://www.cfr.org/global-conflict-tracker}{Global Conflict Tracker} se pueden observar los principales conflictos en el mundo. 
+
+En el conflicto Israel-Palestina, ¿cuáles son los actores clave en el conflicto y sus objetivos? ¿Existen terceros involucrados? Y si es así, ¿cuáles son sus intereses? ¿Cómo podrían estar contribuyendo al conflicto problemas de compromiso, asimetrías de información o bienes indivisibles? ¿Qué estrategias podrían facilitar una solución pacífica del conflicto?
+
+\begin{itemize}
+
+    \item \emph{David Remnick, ‘Notes from Underground: A Portrait of Yahya Sinwar and the Hamas–Israel War,’ The New Yorker, 12/08/2024} \textbf{Obligatoria}
+
+    \item \emph{Amos Harel, ‘Israel’s Next War: The Mounting Pressure to Fight Hezbollah in Lebanon—and Why That Is So Dangerous,’ Foreign Affairs, 23/07/2024} \textbf{Optativa}
+\end{itemize}
+
+\end{minipage}
+\end{center}
+
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 7: Leyes, normas y DDHH (13/03)}}} \\
+\end{flushleft}
+El término “crímenes de lesa humanidad” se codificó por primera vez tras la Segunda Guerra Mundial durante los Juicios de Núremberg. ¿A qué se refiere exactamente?
+¿Qué distingue a los crímenes de lesa humanidad de otros crímenes internacionales, como los crímenes de guerra o el genocidio? ¿Por qué es importante que estos crímenes se persigan bajo el derecho internacional en lugar del derecho interno?\vspace{0,5em}
+
+¿Todo vale en la lucha contra el crimen y el terrorismo? El caso de Bukele en El Salvador.
+\begin{itemize}
+
+    \item \emph{Masha Gessen, ‘The Prosecution of Russian War Crimes in Ukraine,’ The New Yorker, 08/08/2022} \textbf{Obligatoria}
+    
+    \item \emph{Oumar Ba, ‘A Truly International Criminal Court,’ Foreign Affairs, 18/06/2021} \\ \textbf{Optativa}
+
+\end{itemize}
+\end{minipage}
+\end{center}
+
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 8: Introducción a las presentaciones (20/03)}}} \\
+\end{flushleft}
+
+Sesión dedicada a la rúbrica de las presentaciones, la revisión de materiales como bases de datos o bibliografía, la asignación aleatoria del orden de presentaciones y la discusión de los temas propuestos por cada grupo.
+
+\end{minipage}
+\end{center}
+
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 9: Comercio internacional (27/03)}}} \\
+\end{flushleft}
+¿Por qué los países se benefician al especializarse en ciertos productos en lugar de producir todo por sí mismos? ¿En qué se diferencia la ventaja comparativa de la ventaja absoluta? ¿Puede un gobierno modificar la ventaja comparativa de su país, y cómo? \vspace{0,5em}
+
+En el caso de Estados Unidos y China, ¿cuáles son las principales fuentes de tensión en su relación comercial marcada por aranceles altos, competencia estratégica y dependencia mutua, y por qué ambos siguen elevando barreras pese a los costos económicos?
+
+\begin{itemize}
+\item \emph{Henry Farrell y Abraham L. Newman, ‘The Weaponized World Economy,’ Foreign Affairs, 19/08/2025} \textbf{Obligatoria}  
+
+\item \emph{Michael Pettis, ‘How to Fix Free Trade,’ Foreign Affairs, 17/11/2025} \textbf{Obligatoria}   
+\end{itemize}
+\end{minipage}
+\end{center}
+
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 10: Finanzas y dinero (10/04)}}} \end{flushleft}
+
+The International Political Economy Data Resource. \href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/X093TV}{Descarga}
+
+\begin{itemize}
+
+\item \emph{Benjamin A. T. Graham y Jacob R. Tucker, ‘The international political economy data resource’. Rev Int Organ 14, 149–161 (2019)} \textbf{Optativa}  
+
+\end{itemize}
+\end{minipage}
+\end{center}
+
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 11: Desarrollo económico  (17/04)}}} 
+\end{flushleft}
+
+¿De qué maneras la democracia promueve el desarrollo económico? ¿Cómo fomenta el crecimiento económico el desarrollo y la persistencia de regímenes democráticos? ¿Desarrollar primero uno facilita el desarrollo del otro? \vspace{0,5em}
+
+Existen ejemplos históricos y contemporáneos en los que esta relación es  especialmente fuerte o débil ¿Cómo podrían factores como la desigualdad, la corrupción o la capacidad del Estado influir en la dirección y la intensidad del vínculo entre democracia y desarrollo?
+
+\begin{itemize}
+     \item \emph{Acemoglu, D. \& J.A. Robinson. 2012.  Why Nations Fails. The Origins of Power, Prosperity, and Poverty. New York: Crown Publishers. Chapter 3, pp. 70-95.} \\ \textbf{Obligatoria}
+
+     \item \emph{Amaka Anku, ‘The New African Order: How Nigeria and South Africa Can Lead the Continent to Prosperity and Stability,’ Foreign Affairs, 24/10/2025} \textbf{Obligatoria} 
+\end{itemize}
+\end{minipage}
+\end{center}
+
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 12: Presentaciones (I) (24/04)}}} \vspace{0,5em}\\
+
+Primera semana de presentaciones.\vspace{0,5em}
+
+El orden de las presentaciones se sorteará en la semana 8 del curso.
+\end{flushleft}
+\end{minipage}
+\end{center}
+
+\begin{center} 
+\begin{minipage}{6in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} ~ \textbf{{\large{Semana 13: Presentaciones (II) (28/04)}}} \vspace{0,5em} \\
+Esta segunda sesión de presentaciones tendrá lugar durante el horario de la clase magistral debido a la festividad del 1 de mayo. 
+\end{flushleft}
+\end{minipage}
+\end{center}
+
+\vspace*{.15in}
+\noindent\textbf{Evaluación:} Actividades seminarios (20\%), Presentación final (30\%). 
+
+\vspace*{.08in}
+\noindent {\footnotesize{El 50\% restante de la nota final depende de los exámenes parcial y final}}
+
+\vskip.15in
+
+\noindent\textbf{Política de la clase}  
+Se espera la asistencia de forma habitual, pero la calificación de "Actividades seminarios" reflejará tanto la asistencia como el compromiso activo. Es preferible ausentarse que interrumpir la clase. Las ausencias puntuales pueden compensarse mediante una participación significativa en otras sesiones. \vspace{1.5em}
+
+\noindent\textbf{Materiales audiovisuales (optativos)}
+
+\begin{itemize}
+
+\item \emph{Al Jazeera English. Is the world actually getting better?, 2018.} \href{https://youtu.be/ie7-xhxSh94?si=NtcNqMGgCNriOZmd}{Vídeo disponible en YouTube} (ver hasta 15:30).
+
+\item \emph{Gillo Pontecorvo (director), La Batalla de Argel, 1966).} \href{https://www.youtube.com/watch?v=zpn4Htfrv88}{Vídeo disponible en YouTube}.
+
+\item \emph{Lethal Crysis, ‘El Salvador y Nayib Bukele: ¿Un Nuevo País?’} \href{https://youtu.be/jPRIzJzdMLY?si=xCvbY0k0LnJc7KI2}{Vídeo disponible en YouTube}.
+
+\item \emph{No es el fin del mundo. “248. Sudán, el gran conflicto olvidado”, 2026.} Episodio de pódcast de "El Orden Mundial" \href{https://open.spotify.com/episode/1hdxJ0FobU7NIZ4RKYtvMk?si=7be703d1756e4055} {disponible en Spotify}.
+
+\item \emph{Tedx Talks, Why nations fail | James Robinson | TEDxAcademy, 2014.} \href{https://youtu.be/jsZDlBU36n0?si=cKMnJ4gWwCHKhD7A}{Vídeo disponible en YouTube}.
+
+
+
+\end{itemize}
+
+\noindent {\footnotesize{(Los materiales audiovisuales son opcionales y están pensados para reforzar la comprensión conceptual y empírica de las lecturas, no para sustituirlas.)}}
+
+%%%%%% THE END 
+\end{document} 
