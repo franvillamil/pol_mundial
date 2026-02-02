@@ -32,5 +32,5 @@ layout: default
 | Abril 7    | 10. [Finanzas y dinero](resources#finanzas-y-dinero) | <!-- [[PDF](./slides/08_finanzas/finanzas.pdf)] --> | [link](seminarios) |
 | Abril 14  | 11. [Desarrollo económico](resources#desarrollo-económico) | <!-- [[PDF](./slides/09_devt/devt.pdf)] --> | [link](seminarios) |
 | Abril 21  | 12. [Futuro y problemas emergentes](resources#futuro-y-problemas-emergentes) | <!-- [[PDF](./slides/10_futuro/futuro.pdf)] --> | [link](seminarios) |
-| Abril 28  | 13. Resumen/Presentaciones || [link](seminarios) |
-| Mayo 5    | 14. *No hay clase*/Refuerzo |||
+| Abril 28  | 13. *Clase de reserva* || [link](seminarios) |
+| Mayo 5    | 14. Presentaciones |||
