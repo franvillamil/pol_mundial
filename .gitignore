@@ -3,6 +3,7 @@
 **/.DS_Store
 *.aux
 *.log
+*.bcf
 *.nav
 *.out
 *.snm
