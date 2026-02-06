@@ -86,12 +86,11 @@ Existen ejemplos históricos y contemporáneos en los que esta relación es espe
 ### Semana 12: Presentaciones (I) (23/04 o 24/04)
 
 Primera semana de presentaciones.
-
 El orden de las presentaciones se sorteará en la semana 8 del curso.
 
 ### Semana 13: Presentaciones (II) (30/04)
 
-**Para el grupo 88,** esta segunda sesión de presentaciones tendrá lugar durante el horario de la clase magistral (28/04) debido a la festividad del 1 de mayo. **Para ambos grupos:** la magistral del día 5 de mayo se reserva en caso de que haya necesidad de más tiempo para realizar presentaciones.
+El **grupo 88** realizará la 2da sesión de presentaciones el día 30 de abril. La tercera sesión, en caso de necesidad, se reserva para la magistral del 5 de mayo. Debido al festivo del 1 de mayo, el **grupo 188** tendrá la segunda sesión el martes 5 (en la magistral) y la tercera sesión, en caso de necesidad, el viernes 8 de mayo.
 
 ## Materiales audiovisuales para los seminarios (optativos)
 
