@@ -1,0 +1,20 @@
+\documentclass[aspectratio=43]{beamer}
+
+% Title --------------------------------------------
+\title{\huge Actores e intereses}
+\input{../beamer_preamble.tex}
+
+% Table of Contents with Sections
+\setbeamerfont{myTOC}{series=\bfseries, size=\Large}
+\AtBeginSection[]{
+        \frame{
+            \frametitle{Roadmap}
+            \tableofcontents[current]
+        }
+    }
+
+\begin{document}
+
+\input{actores_body}
+
+\end{document}
