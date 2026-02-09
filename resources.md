@@ -15,6 +15,23 @@ layout: default
 ### Actores e intereses
 
 - Frieden, Lake & Schultz: Capítulo 2
+- Martha Finnemore, *The Purpose of Intervention: Changing Beliefs about the Use of Force.* Cornell University Press, 2004.
+- Martha Finnemore and Kathryn Sikkink, "International norm dynamics and political change." *International Organization*, 52(4): 887–917, 1998.
+- Peter J. Katzenstein, *The Culture of National Security: Norms and
+Identity in World Politics.* Columbia University Press, 1996.
+- Robert O. Keohane and Joseph S. Nye, *Power and Interdependence.* Longman, 2012.
+- Bruce M. Russett and John R. Oneal, *Triangulating Peace: Democracy,
+Interdependence, and International Organizations.* Norton, 2001.
+- Jack Snyder, "One World, Rival Theories." *Foreign Policy* 145: 52-62, 2004.
+- Stephen M. Walt, "International Relations: One World, Many Theories." *Foreign Policy* 110: 29-46, 2001.
+- Kenneth Waltz, *Man, the State, and War: A Theoretical Analysis.* Columbia University Press, 1959.
+- Kenneth Waltz, *Theory of International Politics.* Waveland Press, 2010.
+
+#### Otros textos (teoría de juegos)
+
+- Robert Axelrod, *The Evolution of Cooperation* (Basic Books, 1984), capítulos 1-2.
+- Mancur Olson, *The Logic of Collective Action* (Harvard University Press, 1965), capítulo 1.
+- Interactivo: [The Evolution of Trust](https://ncase.me/trust/)
 
 ### El problema de la guerra
 

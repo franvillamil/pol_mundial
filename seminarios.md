@@ -1,10 +1,10 @@
 # Programa de seminarios (orientativo)
 
-### Semana 1 (29/01 o 30/01)
+### Semana 1 (29/01 o 30/01) {#s1}
 
 *No hay seminario*
 
-### Semana 2: El mundo hoy (05/02 o 06/02)
+### Semana 2: El mundo hoy (05/02 o 06/02) {#s2}
 
 Introducción de las diferentes bases de datos que utilizaremos a lo largo del curso (UCDP, COW, QoG, entre otras).
 
@@ -12,20 +12,20 @@ Breve artículo sobre los principales conflictos después de la Guerra Fría. ¿
 
 [Artículo Our World in Data](https://ourworldindata.org/conflict-deaths-breakdown)
 
-### Semana 3: Actores e intereses (12/02 o 13/02)
+### Semana 3: Actores e intereses (12/02 o 13/02) {#s3}
 
 ¿Qué es un estado fallido? Desde el [Fragile States Index](https://fragilestatesindex.org/analytics/fsi-heat-map/) se pueden comparar las clasificaciones y puntuaciones de los países de todo el mundo.
 
 ¿Cuáles son algunos ejemplos de estados fallidos en el sistema internacional hoy? ¿Qué problemas generan estos estados fallidos para el sistema internacional? ¿Bajo qué condiciones es legítimo que otros estados violen la soberanía formal de un estado fallido?
 
-### Semana 4: El problema de la guerra (19/02 o 20/02)
+### Semana 4: El problema de la guerra (19/02 o 20/02) {#s4}
 
 Las relaciones entre China y EEUU han evolucionado durante los últimos años. ¿Cuáles son los principales intereses económicos, ideológicos y de seguridad de ambas potencias? ¿Cuál es el papel de Europa en este nuevo orden mundial?
 
 - *Graham Allison, 'The Thucydides' Trap: Are the U.S. and China headed for war?' The Atlantic, 24/09/2015* **Obligatoria**
 - *Dexter Filkins, A Dangerous Game Over Taiwan, The New Yorker, 14/11/2022* **Obligatoria**
 
-### Semana 5: Guerras y organizaciones (26/02 o 27/02)
+### Semana 5: Guerras y organizaciones (26/02 o 27/02) {#s5}
 
 ¿Por qué las democracias rara vez entran en guerra entre sí?
 
@@ -35,7 +35,7 @@ La teoría de la paz democrática sostiene que los Estados democráticos tienen 
 - *Blas Moreno (entrevista a Peter Turchin), '"Estados Unidos va hacia una guerra civil. Quizá ya sea tarde para evitarlo",' El Orden Mundial, 12/05/2024* **Optativa**
 - *Diego E. Barros, 'Por qué Estados Unidos no está al borde de una guerra civil,' El Orden Mundial, 23/09/2025* **Optativa**
 
-### Semana 6: Terrorismo (05/03 o 06/03)
+### Semana 6: Terrorismo (05/03 o 06/03) {#s6}
 
 Desde el [Global Conflict Tracker](https://www.cfr.org/global-conflict-tracker) se pueden observar los principales conflictos en el mundo.
 
@@ -44,7 +44,7 @@ En el conflicto Israel-Palestina, ¿cuáles son los actores clave en el conflict
 - *David Remnick, 'Notes from Underground: A Portrait of Yahya Sinwar and the Hamas–Israel War,' The New Yorker, 12/08/2024* **Obligatoria**
 - *Amos Harel, 'Israel's Next War: The Mounting Pressure to Fight Hezbollah in Lebanon—and Why That Is So Dangerous,' Foreign Affairs, 23/07/2024* **Optativa**
 
-### Semana 7: Leyes, normas y DDHH (12/03 o 13/03)
+### Semana 7: Leyes, normas y DDHH (12/03 o 13/03) {#s7}
 
 El término "crímenes de lesa humanidad" se codificó por primera vez tras la Segunda Guerra Mundial durante los Juicios de Núremberg. ¿A qué se refiere exactamente?
 
@@ -55,11 +55,11 @@ El término "crímenes de lesa humanidad" se codificó por primera vez tras la S
 - *Masha Gessen, 'The Prosecution of Russian War Crimes in Ukraine,' The New Yorker, 08/08/2022* **Obligatoria**
 - *Oumar Ba, 'A Truly International Criminal Court,' Foreign Affairs, 18/06/2021* **Optativa**
 
-### Semana 8: Introducción a las presentaciones (19/03 o 20/03)
+### Semana 8: Introducción a las presentaciones (19/03 o 20/03) {#s8}
 
 Sesión dedicada a la rúbrica de las presentaciones, la revisión de materiales como bases de datos o bibliografía, la asignación aleatoria del orden de presentaciones y la discusión de los temas propuestos por cada grupo.
 
-### Semana 9: Comercio internacional (26/03 o 27/03)
+### Semana 9: Comercio internacional (26/03 o 27/03) {#s9}
 
 ¿Por qué los países se benefician al especializarse en ciertos productos en lugar de producir todo por sí mismos? ¿En qué se diferencia la ventaja comparativa de la ventaja absoluta? ¿Puede un gobierno modificar la ventaja comparativa de su país, y cómo?
 
@@ -68,13 +68,13 @@ En el caso de Estados Unidos y China, ¿cuáles son las principales fuentes de t
 - *Henry Farrell y Abraham L. Newman, 'The Weaponized World Economy,' Foreign Affairs, 19/08/2025* **Obligatoria**
 - *Michael Pettis, 'How to Fix Free Trade,' Foreign Affairs, 17/11/2025* **Obligatoria**
 
-### Semana 10: Finanzas y dinero (09/04 o 10/04)
+### Semana 10: Finanzas y dinero (09/04 o 10/04) {#s10}
 
 The International Political Economy Data Resource. [Descarga](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/X093TV)
 
 - *Benjamin A. T. Graham y Jacob R. Tucker, 'The international political economy data resource'. Rev Int Organ 14, 149–161 (2019)* **Optativa**
 
-### Semana 11: Desarrollo económico (16/04 o 17/04)
+### Semana 11: Desarrollo económico (16/04 o 17/04) {#s11}
 
 ¿De qué maneras la democracia promueve el desarrollo económico? ¿Cómo fomenta el crecimiento económico el desarrollo y la persistencia de regímenes democráticos? ¿Desarrollar primero uno facilita el desarrollo del otro?
 
@@ -83,15 +83,14 @@ Existen ejemplos históricos y contemporáneos en los que esta relación es espe
 - *Acemoglu, D. & J.A. Robinson. 2012. Why Nations Fails. The Origins of Power, Prosperity, and Poverty. New York: Crown Publishers. Chapter 3, pp. 70-95.* **Obligatoria**
 - *Amaka Anku, 'The New African Order: How Nigeria and South Africa Can Lead the Continent to Prosperity and Stability,' Foreign Affairs, 24/10/2025* **Obligatoria**
 
-### Semana 12: Presentaciones (I) (23/04 o 24/04)
+### Semana 12: Presentaciones (I) (23/04 o 24/04) {#s12}
 
 Primera semana de presentaciones.
-
 El orden de las presentaciones se sorteará en la semana 8 del curso.
 
-### Semana 13: Presentaciones (II) (30/04)
+### Semana 13: Presentaciones (II) (30/04) {#s13}
 
-**Para el grupo 88,** esta segunda sesión de presentaciones tendrá lugar durante el horario de la clase magistral (28/04) debido a la festividad del 1 de mayo. **Para ambos grupos:** la magistral del día 5 de mayo se reserva en caso de que haya necesidad de más tiempo para realizar presentaciones.
+El **grupo 88** realizará la 2da sesión de presentaciones el día 30 de abril. La tercera sesión, en caso de necesidad, se reserva para la magistral del 5 de mayo. Debido al festivo del 1 de mayo, el **grupo 188** tendrá la segunda sesión el martes 5 (en la magistral) y la tercera sesión, en caso de necesidad, el viernes 8 de mayo.
 
 ## Materiales audiovisuales para los seminarios (optativos)
 
