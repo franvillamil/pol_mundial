@@ -16,6 +16,48 @@
 \note{Trincheras de la Primera Guerra Mundial. Mas de 15 millones de muertos en cuatro años. Los líderes europeos creían que la guerra terminaría antes de Navidad de 1914. Si era tan catastrófica, por qué no la evitaron? Esta imagen debe provocar la pregunta que guia toda la sesión.}
 
 % ----------------------------------------------------
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[at = (current page.center), yshift = 0cm] (cover) {%
+      \includegraphics[keepaspectratio, height=\paperheight]{../img/wwimap}};
+  \end{tikzpicture}
+\end{frame}
+% ----------------------------------------------------
+\note{territorial loses by great power after wwi}
+
+% ----------------------------------------------------
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[at = (current page.center), yshift = 0cm] (cover) {%
+      \includegraphics[keepaspectratio, height=\paperheight]{../img/wwimappost}};
+  \end{tikzpicture}
+\end{frame}
+% ----------------------------------------------------
+\note{...}
+
+% ----------------------------------------------------
+\begin{frame}
+\frametitle{El puzzle de la guerra}
+\centering
+
+\begin{enumerate}
+  \item Conflicto de intereses: por qué
+  \item La guerra como un problema de la negociación
+  \begin{itemize}
+    \item Problemas de información (información incompleta y señales costosas)
+    \item Problemas de compromiso (\textit{commitment problems})
+    \item Bienes indivisibles
+  \end{itemize}
+  \item Coacción (\textit{compellence} \& \textit{deterrence})
+  \item La guerra hoy en día
+\end{enumerate}
+
+\end{frame}
+% ----------------------------------------------------
+\note{contents}
+
+
+% ----------------------------------------------------
 \begin{frame}
 \frametitle{El puzzle de la guerra}
 \centering
@@ -99,23 +141,35 @@
 \note{Guerra de Ucrania. Un conflicto que en 2022 sorprendió a muchos analistas, pese a que habia señales claras. Rusia y Ucrania tenían una disputa sobre territorio (Crimea, Donbas), políticas (expansion de la OTAN) y régimen (Rusia quería un gobierno afin en Kiev). Pero la pregunta sigue siendo: por qué no llegaron a un acuerdo? Los costes de la guerra han sido enormes para todos.}
 
 
+% ----------------------------------------------------
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[at = (current page.center), yshift = 0cm] (cover) {%
+      \includegraphics[keepaspectratio, height=\paperheight]{../img/ukraineterritory}};
+  \end{tikzpicture}
+\end{frame}
+% ----------------------------------------------------
+\note{Guerra de Ucrania}
+
+
 % ====================================================
 \section{El modelo de negociación}
 % ====================================================
 
 % ----------------------------------------------------
 \begin{frame}
-\frametitle{Negociación bajo amenaza de fuerza}
+\frametitle{La guerra como problema de negociación}
 \centering
 
 \begin{itemize}
-  \item No hay tribunales ni policía a nivel internacional
-  \item Los Estados resuelven sus conflictos mediante \textbf{negociación}
-  \item<2-> \textbf{Crisis:} al menos un Estado amenaza con usar la fuerza
-  \begin{itemize}
-    \item ``Acepta mis demandas, o si no...''
-  \end{itemize}
+  \item Anarquía: No hay tribunales ni policía a nivel internacional
+  \item Los Estados resuelven sus conflictos mediante \textbf{negociación bajo amenaza de fuerza} 
+  \item<2-> Cómo se desarrolla esta negociación?
   \item<2-> \textit{Crisis bargaining} / diplomacia coercitiva
+  \begin{itemize}
+    \item Empieza cuando se entra en \textbf{crisis}, es decir, cuando un Estado amenaza con usar la fuerza
+    \item Consiste generalmente en una escalada de amenazas $+$ ofertas de acuerdo
+  \end{itemize}
 \end{itemize}
 
 \end{frame}
@@ -127,84 +181,69 @@
 \frametitle{El rango de negociación}
 \centering
 
-\vspace{-5pt}
-\begin{tikzpicture}[scale=0.85]
-  % The bar representing the disputed good
-  \fill[accent!15] (0, 0) rectangle (10, 0.6);
-  \draw[thick] (0, 0) rectangle (10, 0.6);
+% \vspace{-5pt}
+% \begin{tikzpicture}[scale=0.85]
+%   % The bar representing the disputed good
+%   \fill[accent!15] (0, 0) rectangle (10, 0.6);
+%   \draw[thick] (0, 0) rectangle (10, 0.6);
 
-  % Labels for ideal points
-  \node[font=\footnotesize, anchor=south] at (0, 0.7) {Ideal A};
-  \node[font=\footnotesize, anchor=south] at (10, 0.7) {Ideal B};
+%   % Labels for ideal points
+%   \node[font=\footnotesize, anchor=south] at (0, 0.7) {Ideal A};
+%   \node[font=\footnotesize, anchor=south] at (10, 0.7) {Ideal B};
 
-  % War outcome (expected)
-  \draw[thick, accent2, dashed] (5.5, -0.2) -- (5.5, 0.8);
-  \node[font=\scriptsize, accent2, anchor=south] at (5.5, 0.85) {Resultado esperado};
+%   % War outcome (expected)
+%   \draw[thick, accent2, dashed] (5.5, -0.2) -- (5.5, 0.8);
+%   \node[font=\scriptsize, accent2, anchor=south] at (5.5, 0.85) {Resultado esperado};
 
-  % Bargaining range
-  \draw[thick, accent, <->] (3.8, -0.5) -- (7.2, -0.5);
-  \node[font=\scriptsize, accent, anchor=north] at (5.5, -0.55) {\textbf{Rango de negociación}};
+%   % Bargaining range
+%   \draw[thick, accent, <->] (3.8, -0.5) -- (7.2, -0.5);
+%   \node[font=\scriptsize, accent, anchor=north] at (5.5, -0.55) {\textbf{Rango de negociación}};
 
-  % Value of war for each side
-  \draw[thick, accent!60] (3.8, -0.2) -- (3.8, 0.8);
-  \node[font=\tiny, anchor=south east] at (3.7, 0.85) {Valor guerra A};
-  \draw[thick, accent!60] (7.2, -0.2) -- (7.2, 0.8);
-  \node[font=\tiny, anchor=south west] at (7.3, 0.85) {Valor guerra B};
+%   % Value of war for each side
+%   \draw[thick, accent!60] (3.8, -0.2) -- (3.8, 0.8);
+%   \node[font=\tiny, anchor=south east] at (3.7, 0.85) {Valor guerra A};
+%   \draw[thick, accent!60] (7.2, -0.2) -- (7.2, 0.8);
+%   \node[font=\tiny, anchor=south west] at (7.3, 0.85) {Valor guerra B};
 
-  % Cost arrows
-  \draw[thick, red!60, <->] (3.8, -1.1) -- (5.5, -1.1);
-  \node[font=\tiny, red!60!black] at (4.65, -1.4) {Costes de A};
-  \draw[thick, red!60, <->] (5.5, -1.1) -- (7.2, -1.1);
-  \node[font=\tiny, red!60!black] at (6.35, -1.4) {Costes de B};
+%   % Cost arrows
+%   \draw[thick, red!60, <->] (3.8, -1.1) -- (5.5, -1.1);
+%   \node[font=\tiny, red!60!black] at (4.65, -1.4) {Costes de A};
+%   \draw[thick, red!60, <->] (5.5, -1.1) -- (7.2, -1.1);
+%   \node[font=\tiny, red!60!black] at (6.35, -1.4) {Costes de B};
 
-\end{tikzpicture}
+% \end{tikzpicture}
 
-\vspace{8pt}
-\begin{itemize}
-  \item[\color{accent}$\bullet$] \footnotesize Los costes de guerra crean un \textbf{rango de acuerdos} que ambos prefieren a luchar
-\end{itemize}
+% \vspace{8pt}
+% \begin{itemize}
+%   \item[\color{accent}$\bullet$] \footnotesize Los costes de guerra crean un \textbf{rango de acuerdos} que ambos prefieren a luchar
+% \end{itemize}
+
+  \begin{tikzpicture}[every text node part/.style={align=center}, scale = 0.75]
+
+  % Process
+  \node (a) at (0,0) {A};
+  \node (b) at (10,0) {B};
+  \draw[-] (a) -- (b);
+
+  \uncover<2->{\draw (6, 0.2) -- (6, -0.2) node[below]{$p$};}
+  \uncover<3->{\draw (4.5, 0.2) -- (4.5, -0.2) node[below]{\tiny $p-C_{a}$};}
+  \uncover<3->{\draw (7.5, 0.2) -- (7.5, -0.2) node[below]{\tiny $p+C_{b}$};}
+  \uncover<4->{\draw[->] (0, 1) -- (4.5, 1) node [above, midway] {\tiny Lo que espera ganar A};}
+  \uncover<4->{\draw[<-] (7.5, 1) -- (10, 1) node [above, midway] {\tiny Lo que espera ganar B};}
+  \uncover<5->{\draw[decorate,decoration={brace,amplitude=2pt}] (4.5, 2) -- (7.5, 2) node [above, midway, text width=2.3cm] {\tiny Espacio de negociación (cualquier acuerdo aquí es mejor que ir a la guerra)\\};}
+
+  \end{tikzpicture}
+
+  \begin{itemize}
+\item<1> Imagina que A y B están luchando por el control de un territorio, y A es un poco más fuerte que B (y ambos lo saben)
+\item<2> $p$ es lo que esperan obtener si pelean
+\item<3-4> Pero la guerra tiene un costo, así que terminarían con un poco menos
+\item<5> Por lo tanto, bajo condiciones racionales, estarían mejor si negocian antes de pelear
+  \end{itemize}
 
 \end{frame}
 % ----------------------------------------------------
 \note{Diagrama central del tema. La barra horizontal representa el bien en disputa (por ejemplo, un territorio). A quiere todo para si (extremo izquierdo); B quiere todo para si (extremo derecho). Si van a la guerra, el resultado esperado está en algun punto de la barra, pero ambos pagan costes (vidas, dinero, destrucción). Esos costes ``encogen'' lo que cada lado obtiene de la guerra, creando una zona de acuerdos que ambos prefieren a pelear. Cuanto mayores son los costes de guerra, más amplio es el rango de negociación. Implicacion fundamental: siempre que la guerra tenga costes para ambos bandos, existe un rango de negociación. Siempre hay acuerdos que ambos prefieren a la guerra.}
-
-% ----------------------------------------------------
-\begin{frame}
-\frametitle{Ejemplo numérico}
-\centering
-
-\footnotesize
-\begin{itemize}
-  \item A y B disputan un territorio valorado en \textbf{100 millones}
-  \item A espera ganar la guerra; costes de A = 30M
-  \vspace{8pt}
-  \item<2-> Valor de guerra para A = 100 $-$ 30 = \textbf{70M}
-  \item<2-> A acepta cualquier acuerdo que le de $\geq$ 70M
-  \vspace{8pt}
-  \item<3-> B espera perder; costes de B = 20M
-  \item<3-> Valor de guerra para B = 0 $-$ 20 = \textbf{$-$20M}
-  \item<3-> B acepta cualquier acuerdo que le cueste $\leq$ 20M
-  \vspace{8pt}
-  \item<4-> \textbf{Rango:} A recibe entre 70 y 80M $\rightarrow$ ambos prefieren negociar
-\end{itemize}
-
-\end{frame}
-% ----------------------------------------------------
-\note{Ejemplo numérico para fijar la intuición. El territorio vale 100M. A espera ganar, pero la guerra le cuesta 30M, así que su valor neto es 70M. A acepta cualquier acuerdo que le de al menos 70M. Para B: espera perder el territorio (valor 0) y además pagar 20M en costes. Cualquier acuerdo donde B pierda menos de 20M es mejor que luchar. Esto significa que A puede recibir entre 70M (lo minimo que acepta) y 80M (lo maximo que B está dispuesto a ceder, ya que ceder 80M a A equivale a perder 80M, que es mejor que perder 100M + 20M de costes). Cualquier reparto en ese rango es mutuamente preferible a la guerra. Pregunta clave: si este rango siempre existe, por qué hay guerras?}
-
-% ----------------------------------------------------
-\begin{frame}
-\centering
-\vspace{30pt}
-
-{\large ¿Se os ocurre un conflicto real en el que ambos bandos habrían estado mejor con un acuerdo negociado?}
-
-\vspace{15pt}
-\footnotesize ¿Por qué no lo alcanzaron?
-
-\end{frame}
-% ----------------------------------------------------
-\note{Pregunta de discusión para activar la participación. Respuestas posibles: la Primera Guerra Mundial (todos perdieron -- cuatro imperios colapsaron, 15 millones de muertos), la guerra de Iran-Irak (8 años, más de un millón de muertos, ningún cambio territorial significativo), la guerra de Irak 2003 (EE.UU. habría evitado una ocupación costosísima). Usar las respuestas para conectar con las tres causas de fracaso que vamos a ver a continuación. Insistir en que la pregunta no es solo por qué luchan, sino por qué no alcanzan el acuerdo que ambos preferirían.}
 
 
 % ====================================================
@@ -213,20 +252,18 @@
 
 % ----------------------------------------------------
 \begin{frame}
-\frametitle{Compelencia y disuasión}
+\frametitle{Negociación bajo amenaza de fuerza}
 \centering
 
 \begin{itemize}
   \item \textbf{Compelencia} (\textit{compellence}):
   \begin{itemize}
     \item Amenazar con la fuerza para \textit{cambiar} el statu quo
-    \item ``Dame \textit{x}, o si no...''
   \end{itemize}
   \vspace{8pt}
   \item<2-> \textbf{Disuasion} (\textit{deterrence}):
   \begin{itemize}
     \item Amenazar con la fuerza para \textit{preservar} el statu quo
-    \item ``No hagas \textit{x}, o si no...''
   \end{itemize}
   \vspace{8pt}
   \item<3-> Disuasion \textbf{general} vs. \textbf{extendida}
@@ -234,6 +271,7 @@
     \item General: ``no me ataques''
     \item Extendida: ``no ataques a mi aliado'' (más difícil)
   \end{itemize}
+  \item<4-> ¿Cuál es el ejemplo de política de disuasión más común? Relacionado con el modelo de negociación
 \end{itemize}
 
 \end{frame}
@@ -242,7 +280,7 @@
 
 % ----------------------------------------------------
 \begin{frame}
-\frametitle{La disuasión nuclear}
+\frametitle{Ejemplo de deterrence: armas nucleares}
 \centering
 
 \begin{itemize}
@@ -255,11 +293,30 @@
   \vspace{8pt}
   \item<3-> Las armas nucleares han hecho que las guerras entre grandes potencias sean \textbf{demasiado costosas}
   \item<3-> No ha habido guerra directa entre potencias nucleares
+  \item<4-> \textbf{¿Cuál es la estrategia de disuasión de las potencias nucleares: UK/Francia, USA, Rusia, China?}
 \end{itemize}
 
 \end{frame}
 % ----------------------------------------------------
 \note{La disuasión nuclear es el ejemplo más extremo del rango de negociación: los costes son tan astronómicos que el rango de acuerdos preferibles a la guerra es inmenso. Desde 1945, no ha habido guerra directa entre grandes potencias. Antes de las armas nucleares, las grandes potencias luchaban entre si regularmente (las dos guerras mundiales son el caso más extremo). Pero la disuasión nuclear tiene sus propios problemas: la crisis de los misiles de Cuba en 1962 mostró lo cerca que se puede llegar del desastre. Además, la disuasión nuclear no impide las guerras convencionales (Vietnam, Corea, Irak) ni las guerras proxy.}
+
+% ----------------------------------------------------
+\begin{frame}
+\centering
+\vspace{30pt}
+
+\begin{itemize}
+  \item ¿Se os ocurre un conflicto real en el que ambos bandos habrían estado mejor con un acuerdo negociado?
+  \item<2-> Ejemplo, guerra de Gaza: Israel-Hamas
+  \item<2-> ¿Cuáles son los costos de la guerra para ambos bandos?
+  \item<2-> ¿Qué van a ganar (o más bien, qué gana Israel)?
+  \item<2-> ¿Hay un acuerdo posible al que podrían haber llegado?
+  \item<3-> \textbf{¿Por qué fueron a la guerra entonces?}
+\end{itemize}
+
+\end{frame}
+% ----------------------------------------------------
+\note{Pregunta de discusión para activar la participación. Respuestas posibles: la Primera Guerra Mundial (todos perdieron -- cuatro imperios colapsaron, 15 millones de muertos), la guerra de Iran-Irak (8 años, más de un millón de muertos, ningún cambio territorial significativo), la guerra de Irak 2003 (EE.UU. habría evitado una ocupación costosísima). Usar las respuestas para conectar con las tres causas de fracaso que vamos a ver a continuación. Insistir en que la pregunta no es solo por qué luchan, sino por qué no alcanzan el acuerdo que ambos preferirían.}
 
 
 % ====================================================
@@ -344,17 +401,36 @@
     \item Algo que no harías si estuvieras faroleando
   \end{itemize}
   \vspace{8pt}
-  \item<2-> Tres mecanismos:
+  \item<2-> Tres mecanismos, que pueden parecer irracionales:
   \begin{enumerate}
     \item<2-> \textbf{Brinksmanship} (diplomacia al borde del abismo)
+      \begin{itemize}
+        \item Coste: asumir riesgo
+      \end{itemize}
     \item<3-> \textbf{Atarse las manos} (\textit{tying hands})
+      \begin{itemize}
+        \item Coste: restringirte las opciones
+      \end{itemize}
     \item<4-> \textbf{Pagar para tener poder} (\textit{paying for power})
+      \begin{itemize}
+        \item Coste: lo que gastas
+      \end{itemize}
   \end{enumerate}
 \end{itemize}
 
 \end{frame}
 % ----------------------------------------------------
 \note{Idea general de Thomás Schelling (Premio Nobel de Economia, 2005): las amenazas baratas no son creíbles porque cualquiera puede hacerlas. Para demostrar que hablas en serio, tienes que hacer algo que te cueste algo que no harías si fueras un farolero. Es la misma lógica que en la vida cotidiana: si alguien dice que te va a devolver un prestamo, le crees más si pone su casa como garantía. La señal es costosa, y por eso es creíble. Vamos a ver tres formas concretas de enviar señales costosas en las relaciones internacionales.}
+
+% ----------------------------------------------------
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[at = (current page.center), yshift = 0cm] (cover) {%
+      \includegraphics[keepaspectratio, height=\paperheight]{../img/rebelchickenrun}};
+  \end{tikzpicture}
+\end{frame}
+% ----------------------------------------------------
+\note{ejemplo}
 
 % ----------------------------------------------------
 \begin{frame}
@@ -386,6 +462,16 @@
 \note{Crisis de los misiles de Cuba (octubre 1962). Fotografias aereas revelaron que la URSS estaba instalando misiles nucleares en Cuba, a 150 km de Florida. Kennedy impuso un bloqueo naval. Durante 13 dias, el mundo estuvo al borde de la guerra nuclear. Un submarino soviético (B-59) casí lanzó un torpedo nuclear al ser bombardeado con cargas de profundidad. Solo la negativa de un oficial, Vasili Arjipov, lo impidió. Al final, Jrushchov retiró los misiles a cambio de la promesa de EE.UU. de no invadir Cuba y la retirada secreta de misiles americanos de Turquia. Es el ejemplo perfecto de brinksmanship: ambos sabrían que la guerra sería catastrófica, pero la disposición a correr riesgos fue la señal.}
 
 % ----------------------------------------------------
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[at = (current page.center), yshift = 0cm] (cover) {%
+      \includegraphics[keepaspectratio, height=\paperheight]{../img/ulysses}};
+  \end{tikzpicture}
+\end{frame}
+% ----------------------------------------------------
+\note{ejemplo}
+
+% ----------------------------------------------------
 \begin{frame}
 \frametitle{Atarse las manos (\textit{tying hands})}
 \centering
@@ -414,7 +500,7 @@
 \begin{itemize}
   \item Tomar medidas costosas para aumentar las capacidades militares
   \begin{itemize}
-    \item Movilización de tropas, aumentó del gasto militar
+    \item Movilización de tropas, aumento del gasto militar...
   \end{itemize}
   \vspace{8pt}
   \item<2-> Doble efecto:
@@ -423,7 +509,7 @@
     \item Señala que el Estado se toma en serio la disputa
   \end{itemize}
   \vspace{8pt}
-  \item<3-> Ejemplo: Kennedy aumentó el ejército en 350.000 soldados durante la crisis de Berlin (1961)
+  \item<3-> Ejemplo: Kennedy aumentó el ejército en 350.000 soldados durante la crisis de Berlin (1961), Putin pre 2022
 \end{itemize}
 
 \end{frame}
@@ -467,7 +553,7 @@
   \vspace{8pt}
   \item<2-> Ceder hoy $\rightarrow$ el adversario se fortalece $\rightarrow$ manana exige más
   \vspace{8pt}
-  \item<3-> Ejemplo: \textbf{Libia (2003-2011)}
+  \item<3-> Ejemplo (contrario): \textbf{Libia (2003-2011)}
   \begin{itemize}
     \item<3-> Gadafi renunció a armas químicas y nucleares en 2003
     \item<3-> Prometieron no atacar... en 2011 fue intervenido y derrocado
@@ -491,14 +577,16 @@
     \item Crecimiento económico desigual, nuevas tecnologías
   \end{itemize}
   \vspace{8pt}
-  \item<2-> El Estado que se debilita prefiere luchar \textbf{hoy} antes de ser más debil \textbf{manana}
+  \item<2-> El Estado que se debilita prefiere luchar \textbf{hoy} antes de ser más debil \textbf{mañana}
   \item<2-> No puede confiar en que el Estado creciente no explotará su ventaja
   \vspace{8pt}
   \item<3-> Ejemplos:
   \begin{itemize}
     \item Alemania vs. Rusia (1914)
     \item EE.UU. vs. Irak (2003)
+    \item EE.UU. vs China?
   \end{itemize}
+  \item<2-> Trampa de Tucídides
 \end{itemize}
 
 \end{frame}
@@ -552,7 +640,7 @@
   \fill[accent2] (9.5, 0) circle (3pt);
   \draw[accent2!50] (9.5, 0) -- (9.5, 1.5);
   \node[font=\tiny, align=center, anchor=south, accent2] at (9.5, 1.55) {%
-    \textbf{Ago 1914}\\Estalla\\la IGM};
+    \textbf{Ago 1914}\\Estalla\\la WWI};
 
 \end{tikzpicture}
 
@@ -570,7 +658,7 @@
 
 % ----------------------------------------------------
 \begin{frame}
-\frametitle{Guerra preemptiva}
+\frametitle{Guerra \textit{preemptive} (preemptiva?)}
 \centering
 
 \begin{itemize}
@@ -641,10 +729,7 @@ Ambas son \textbf{problemas de compromiso}: no se puede confiar en que el otro n
 \centering
 \vspace{30pt}
 
-{\large ¿Tiene la competición entre EE.UU. y China elementos de lógica preventiva?}
-
-\vspace{15pt}
-\footnotesize ¿Qué mecanismos podrían reducir ese riesgo?
+Conflicto USA-China? Y qué mecanismos podrían reducir el riesgo de guerra?
 
 \end{frame}
 % ----------------------------------------------------
@@ -752,6 +837,7 @@ Ambas son \textbf{problemas de compromiso}: no se puede confiar en que el otro n
   \begin{itemize}
     \item Paz democrática; verificación (OIEA); mediación (ONU)
   \end{itemize}
+  \item<3-> Esto es lo que vamos a ver la semana que viene
 \end{itemize}
 
 \end{frame}
@@ -776,7 +862,7 @@ Ambas son \textbf{problemas de compromiso}: no se puede confiar en que el otro n
   \end{enumerate}
   \vspace{8pt}
   \item<2-> Señales costosas intentan resolver (I) pero son peligrosas
-  \item<3-> La guerra interestatal ha declinado, pero no ha desaparecido
+  \item<3-> La guerra interestatal es menos frecuente, pero no ha desaparecido
 \end{itemize}
 
 \end{frame}

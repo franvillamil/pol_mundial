@@ -36,6 +36,12 @@ Interdependence, and International Organizations.* Norton, 2001.
 ### El problema de la guerra
 
 - Frieden, Lake & Schultz: Capítulo 3
+- Capítulo 1 en Kalevi J Holsti, *Peace and War: Armed Conflicts and International Order, 1648-1989.* Cambridge University Press, 1991.
+- Jack S. Levy, "Interstate war and peace." En: Handbook of International Relations (Sage), 2013.
+- Tanisha M Fazal, *State Death: The Politics and Geography of Conquest, Occupation, and Annexation.* Princeton University Press, 2011.
+- James D. Fearon, "Rationalist Explanations for War." *International
+Organization* 49: 379–414, 1995.
+- Thomas C. Schelling, *Arms and Influence*. Yale University Press, 1966.
 
 ### Guerras y organizaciones
 

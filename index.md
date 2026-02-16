@@ -22,7 +22,7 @@ layout: default
 | Enero 27   | 1. *No hay clase* || *No seminario*|
 | Febrero 3  | 2. [Introducción & El mundo hoy](resources#el-mundo-hoy) | [[PDF](./slides/01_intro/intro.pdf)] | [link](seminarios#s2) |
 | Febrero 10 | 3. [Actores e intereses](resources#actores-e-intereses) | [[PDF](./slides/02_actores/actores.pdf)] | [link](seminarios#s3) |
-| Febrero 17 | 4. [El problema de la guerra](resources#el-problema-de-la-guerra) | <!-- [[PDF](./slides/03_guerra/guerra.pdf)] --> | [link](seminarios#s4) |
+| Febrero 17 | 4. [El problema de la guerra](resources#el-problema-de-la-guerra) | [[PDF](./slides/03_guerra/guerra.pdf)] | [link](seminarios#s4) |
 | Febrero 24 | 5. [Guerras y organizaciones](resources#guerras-y-organizaciones) | <!-- [[PDF](./slides/04_guerra2/guerra2.pdf)] --> | [link](seminarios#s5) |
 | Marzo 3    | 6. [Terrorismo](resources#terrorismo) | <!-- [[PDF](./slides/05_terror/terror.pdf)] --> | [link](seminarios#s6) |
 | Marzo 10   | 7. [Leyes, normas y DDHH](resources#leyes-normas-y-ddhh) | <!-- [[PDF](./slides/06_normas/normas.pdf)] --> | [link](seminarios#s7) |
