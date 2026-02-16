@@ -1,0 +1,128 @@
+---
+title: "Session 4 Report: Guerra: estado y organizaciones"
+subtitle: "Política Mundial"
+date: "2026-02-16"
+output:
+  pdf_document:
+    toc: true
+    latex_engine: xelatex
+geometry: margin=2cm
+header-includes:
+  - \renewcommand*\rmdefault{ppl}
+  - \usepackage{setspace}\setstretch{1.2}
+---
+
+# Summary
+
+| Artifact | Status | File Path |
+|----------|--------|-----------|
+| Slides (presentation) | **PASS** | `slides/04_guerra2/guerra2.pdf` |
+| Slides (notes) | **PASS** | `slides/04_guerra2/guerra2_notes.pdf` |
+| Assignment | Skipped | N/A (non-methods course) |
+| Solutions | Skipped | N/A (non-methods course) |
+
+**Course type:** Non-methods (no `assignments/` folder detected)
+
+**Reference materials used:** FLS chapters 4 (Domestic Politics and War) and 5 (International Institutions and War), plus instructor outlines for both chapters.
+
+# Slides
+
+## Structure
+
+| Section | Frames | Content |
+|---------|--------|---------|
+| (Intro) | 1 | Title page |
+| La politica domestica y la guerra | 5 | Actors pyramid (tikz), rally effect, diversionary war, bargaining effect, Malvinas discussion |
+| Militares y grupos de interes | 3 | Military-industrial complex, small-group influence, bargaining implications |
+| La paz democratica | 4 | Empirical finding, four mechanisms (table), causal concerns, democracy promotion discussion |
+| Alianzas | 4 | Definition, alliance dilemma, balance of power/Cold War, transition discussion prompt |
+| Seguridad colectiva | 4 | Definition, collective action problem, peacekeeping vs. enforcement (two-column), IOs and bargaining |
+| (Summary + closing) | 2 | I-I-I framework recap, "Preguntas?" |
+| **Total** | **23 frames** (including title/closing) | |
+
+**Assessment:** 21 content frames for a ~90-minute lecture is appropriate (~4 minutes per slide). The addition of a third discussion prompt helps break up the back half of the lecture.
+
+## Compilation
+
+- `guerra2.pdf`: 55 pages, compiles without errors
+- `guerra2_notes.pdf`: 12 pages (4-on-1 layout), compiles without errors
+- Overfull hbox warnings: all minor (2.12pt), from beamer footer template, not content issues
+
+## Visual Elements
+
+- 1 TikZ diagram: domestic actors pyramid
+- 1 table: democratic peace mechanisms (animated, 4 rows)
+- 1 two-column comparison: peacekeeping vs. peace enforcement (new)
+- 3 discussion prompt slides (1 existing + 1 new transition prompt)
+- 3 image placeholders (commented out, see Images Needed below)
+
+## Teaching Notes
+
+All 23 frames have `\note{}` blocks. Notes are detailed and include:
+
+- Historical examples (Argentina 1982, Guatemala 1954, Japan 1930s, Bush/Obama, Cold War, Srebrenica, Rwanda)
+- Connections to the bargaining model from session 03
+- Discussion guidance and expected student responses
+- Cross-session references (sessions 2 and 3)
+- Preview of session 05 (terrorism, non-state violence)
+
+## Pedagogy Review
+
+The pedagogy-reviewer agent identified the following issues:
+
+| Severity | Issue | Status |
+|----------|-------|--------|
+| High | Very few visual elements (1 tikz across 19 slides) | **Partially addressed** -- added image placeholders and restructured peacekeeping slide as two-column |
+| Medium | No transition between Alliances and Collective Security | **Fixed** -- added discussion prompt slide |
+| Medium | Peacekeeping vs. peace enforcement needed side-by-side layout | **Fixed** -- restructured as two-column |
+| Medium | No discussion prompt in back half of lecture | **Fixed** -- added transition discussion between sections |
+| Minor | "Gambling for resurrection" lacked Spanish gloss | **Fixed** -- added parenthetical |
+
+**Strengths noted by reviewer:**
+
+- Strong narrative arc organized around I-I-I framework
+- Excellent progressive complexity (inside state -> between states -> institutions above states)
+- Rich teaching notes with numerous case studies
+- Good Socratic embedding (now 3 discussion prompts)
+- All frames have notes
+- No sections with only 1 slide
+- Consistent notation and terminology with session 03
+
+## Quality Score
+
+| Check | Result | Deduction |
+|-------|--------|-----------|
+| Compilation | Pass | 0 |
+| Overfull hbox > 10pt | 0 | 0 |
+| Sections with only 1 slide | 0 | 0 |
+| Missing `\note{}` after frame | 0 | 0 |
+| Overfull hbox <= 10pt | ~80 (2.12pt, template) | -1 each (capped at -3) |
+
+**Score: ~97/100** -- Acceptable
+
+# Images Needed
+
+The deck currently has **no full-frame images**. Three image placeholders have been added (commented out). To activate them, source the images and uncomment the corresponding frames.
+
+| Placeholder | Filename | Description | Where to find |
+|-------------|----------|-------------|---------------|
+| NATO/Warsaw Pact map | `nato_warsaw_map` | Map of Europe showing NATO (blue) vs. Warsaw Pact (red) blocs during the Cold War. Opens the Alliances section. | Search: "NATO Warsaw Pact Cold War map Europe" -- Wikipedia or academic sources |
+| Democratic peace | `democratic_peace` | Graph, scatterplot, or matrix showing the absence of wars between consolidated democracies. Opens the Democratic Peace section. | FLS Figure 4.4, or search: "democratic peace empirical evidence graph" |
+| UN peacekeeping map | `un_peacekeeping_map` | World map of active UN peacekeeping operations, or timeline/bar chart showing the post-1990 explosion of missions. Opens the Collective Security section. | Source: peacekeeping.un.org, or search: "UN peacekeeping operations map 2024" |
+
+**Additionally recommended (not placeholders yet):**
+
+- **rally_effect_approval**: Chart showing presidential approval rating spikes after international crises (Bush post-9/11: 51% to 86%). Would enhance the rally-effect slide. Search: "rally round the flag effect approval ratings chart"
+- **malvinas_1982**: Photo from the Falklands/Malvinas War for the discussion prompt slide. Search: "Falklands War 1982 Argentina"
+
+All images should be placed in `pol_mundial/slides/img/`.
+
+# Issues Requiring Attention
+
+1. **Images are the main gap.** The lecture is text-heavy compared to session 03 (which has 5 full-frame images). Sourcing at least 2-3 images would significantly improve visual rhythm and student engagement.
+
+2. **NATO map placeholder already existed** (was commented out from original creation). The image just needs to be sourced and placed in `slides/img/`.
+
+3. **No `.bib` file.** The deck doesn't use bibliographic citations. If you want to add references, link a `.bib` file in the wrapper.
+
+4. **Content coverage is comprehensive.** All topics from FLS chapters 4 and 5 are well covered: domestic actors, rally effect, diversionary war, military-industrial complex, collective action, democratic peace (mechanisms and critiques), alliances (types, dilemma, balance of power), and collective security (UN, peacekeeping, peace enforcement, IOs and bargaining).
