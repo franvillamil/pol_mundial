@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>guerra_notes.bcf</file>
+      <file>guerras.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>guerra_notes.bbl</file>
+      <file>guerras.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -65,19 +65,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>guerra_notes</infile>
+      <infile>guerras</infile>
     </cmdline>
     <input>
-      <file>guerra_notes.bcf</file>
+      <file>guerras.bcf</file>
     </input>
     <output>
-      <file>guerra_notes.bbl</file>
+      <file>guerras.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>guerra_notes.bbl</file>
+      <file>guerras.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>guerra_notes.bcf</file>
+      <file>guerras.bcf</file>
     </requires>
   </external>
 </requests>
