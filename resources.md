@@ -46,15 +46,24 @@ Organization* 49: 379–414, 1995.
 ### Guerras y organizaciones
 
 - Frieden, Lake & Schultz: Capítulos 4 y 5
-
-#### Otros textos
-
-- Henry Farrell & Abraham Newman, [Weaponized Interdependence: How Global Economic Networks Shape State Coercion](https://doi.org/10.1162/isec_a_00351) (*International Security*, 2019).
-- Henry Farrell & Abraham Newman, [*Underground Empire: How America Weaponized the World Economy*](https://www.politicaexterior.com/articulo/la-raices-digitales-del-imperio/) (Penguin, 2023). 
-
+- Snyder, Jack. Myths of Empire: Domestic Politics and International Ambition. Ithaca, NY: Cornell University Press, 1991.
+- Erik Gartzke, "The Capitalist Peace". *American Journal of Political Science* 51(1): 166--191, 2007.
+- Christopher Layne, "Kant or Cant: The Myth of the Democratic Peace" *International Security* 19(2): 5--49, 1994.
+- William Dixon, "Democracy and the Peaceful Settlement of Conflicts". *American Political Science Review* 88(1): 14--32, 1994.
+- Lars-Erik Cederman (2001) "Back to Kant: Reinterpreting the Democratic Peace as a Macrohistorical Learning Process." *American Political Science Review* 95(1): 15--31.
+- Doyle, Michael W., and Nicholas Sambanis. Making War and Building Peace: United Nations Peace Operations. Princeton, NJ: Princeton University Press, 2006.
+- Walt, Stephen M. The Origins of Alliances. Ithaca, NY: Cornell University Press, 1987.
+ 
 ### Terrorismo
 
 - Frieden, Lake & Schultz: Capítulo 6
+- Luis de la Calle and Ignacio Sánchez-Cuenca, *Underground violence: On the nature of terrorism.* Oxford University Press, 2024.
+- David Lake (2002) Rational Extremism: Understanding Terrorism in the Twenty First Century. *International Organization* 56(1): 15--29.
+- Robert Pape (2003) "The Strategic Logic of Suicide Terrorism." *American Political Science Review* 97(3): 343--361.
+- Andrew. H Kydd and Barbara F. Walter (2006) "The Strategies of Terrorism". *International Security* 31(1): 49--80.
+- Barbara F. Walter (2017) "The Extremist’s Advantage in Civil Wars". *International Security* 42(2): 7--39.
+- James D. Fearon and David Laitin (2003) "Ethnicity, Insurgency, and Civil War". *American Political Science Review* 97(1): 75--90.
+- Lars-Erik Cederman, Andreas Wimmer, and Brian Min (2010) "Why Do Ethnic Groups Rebel? New Data and Analysis." *World Politics* 62(1): 87--119.
 
 ### Leyes, normas y DDHH
 
@@ -63,6 +72,11 @@ Organization* 49: 379–414, 1995.
 ### Comercio internacional
 
 - Frieden, Lake & Schultz: Capítulo 7
+
+#### Otros textos
+
+- Henry Farrell & Abraham Newman, [Weaponized Interdependence: How Global Economic Networks Shape State Coercion](https://doi.org/10.1162/isec_a_00351) (*International Security*, 2019).
+- Henry Farrell & Abraham Newman, [*Underground Empire: How America Weaponized the World Economy*](https://www.politicaexterior.com/articulo/la-raices-digitales-del-imperio/) (Penguin, 2023).
 
 ### Finanzas y dinero
 
