@@ -54,7 +54,7 @@ Organization* 49: 379–414, 1995.
 - Doyle, Michael W., and Nicholas Sambanis. Making War and Building Peace: United Nations Peace Operations. Princeton, NJ: Princeton University Press, 2006.
 - Walt, Stephen M. The Origins of Alliances. Ithaca, NY: Cornell University Press, 1987.
  
-### Terrorismo
+### Conflicto interno y terrorismo
 
 - Frieden, Lake & Schultz: Capítulo 6
 - Luis de la Calle and Ignacio Sánchez-Cuenca, *Underground violence: On the nature of terrorism.* Oxford University Press, 2024.
