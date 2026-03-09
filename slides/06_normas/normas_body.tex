@@ -16,7 +16,7 @@
   \item Normas internacionales y cómo se difunden
   \item Derechos humanos (DDHH): historia y régimen internacional
   \item Responsabilidad de Proteger (R2P) y tensión soberanía/DDHH
-  \item Instituciones internacionales: CPI y CEDH
+  \item Mecanismos de rendición de cuentas: CPI, CEDH y justicia transicional
 \end{itemize}
 \end{frame}
 % ----------------------------------------------------
@@ -268,6 +268,17 @@ Las TANs son más eficaces como avalistas y monitores que como ejecutoras direct
 \end{enumerate}
 El caso más claro es el movimiento antiapartheid en Sudáfrica. Los grupos negros surafricanos, excluidos del poder, apelaron a sus aliados internacionales. Esas redes movilizaron a la opinión pública y a los gobiernos de los países occidentales, que impusieron sanciones. El resultado final: el fin del apartheid en 1990. Las redes sociales han acelerado el efecto bumerán al hacer posible transmitir instantáneamente vídeos de represión estatal a audiencias globales.}
 
+% ----------------------------------------------------
+\begin{frame}
+\centering
+\vspace{2em}
+
+{\large ¿Puedes pensar en una norma que esté hoy\\en la primera fase --- la de los emprendedores de normas?}
+
+\end{frame}
+% ----------------------------------------------------
+\note{Pausa de reflexión. Ejemplos posibles: la prohibición de las armas autónomas letales (robots asesinos), actualmente en fase de emprendedores (Campaña STOPKILLERROBOTS); las normas de responsabilidad empresarial en DDHH (Principios Rectores de la ONU, todavía soft law); las normas de ciberguerra. Conectar con el caso de las minas antipersona, que completó el ciclo completo con el Tratado de Ottawa (1997).}
+
 % ====================================================
 \section{Derechos humanos}
 % ====================================================
@@ -465,6 +476,17 @@ La tensión real no es tanto entre culturas como entre soberanía e intervenció
 \end{itemize}
 Conclusión: el efecto existe, pero es contingente, indirecto y a largo plazo.}
 
+% ----------------------------------------------------
+\begin{frame}
+\centering
+\vspace{2em}
+
+{\large Si los tratados de DDHH no siempre mejoran el comportamiento de los Estados,\\[0.5em]\textit{¿sirve de algo firmarlos?}}
+
+\end{frame}
+% ----------------------------------------------------
+\note{Pausa de reflexión. Invitar a los estudiantes a aplicar las tres razones por las que los Estados firman tratados: compromiso sincero, bloquear retrocesos (Moravcsik), señalización. La evidencia de Simmons: los tratados funcionan donde hay actores domésticos que presionan --- ONG, jueces, movimientos sociales. La respuesta no es sí/no sino contingente: depende del régimen, la sociedad civil y los mecanismos de implementación.}
+
 % ====================================================
 \section{R2P: la tensión entre soberanía y DDHH}
 % ====================================================
@@ -594,104 +616,252 @@ Mecanismos de rendición de cuentas:\\[8pt]
 \note{}
 
 % ----------------------------------------------------
-\begin{frame}
-\frametitle{La Corte Penal Internacional (CPI)}
-\centering
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[at = (current page.center), yshift = 0cm] (cover) {%
+      \includegraphics[keepaspectratio, height=\paperheight]{../img/nuremberg.jpeg}};
+  \end{tikzpicture}
+\end{frame}
+% ----------------------------------------------------
+\note{El Tribunal Militar Internacional de Núremberg (1945-46): primer tribunal internacional que juzgó a individuos por crímenes de guerra, crímenes contra la paz y crímenes contra la humanidad. 24 altos cargos nazis. 12 condenas a muerte. Principio clave: la obediencia a órdenes superiores no exime de responsabilidad. Fue controversial (``justicia de los vencedores''), pero sentó las bases del derecho penal internacional moderno.}
 
-\begin{itemize}
-  \item Creada por el Estatuto de Roma (1998), en vigor desde 2002
-  \item Puede juzgar individuos por: genocidio, crímenes de guerra, crímenes contra la humanidad, agresión
-  \item<2-> Principio de complementariedad: interviene solo si el Estado no investiga
-  \item<3-> Limitaciones:
-  \begin{itemize}
-    \item EE.UU., Rusia, China, India: \textbf{no son partes}
-    \item Acusaciones: al-Bashir (Sudán), Kenyatta (Kenia), Lubanga (Congo)
-    \item Percepción: ¿tribunal africano?
-  \end{itemize}
-\end{itemize}
+% ----------------------------------------------------
+\begin{frame}
+\frametitle{De Núremberg a la CPI: el arco histórico}
+\centering
+\vspace{0.8em}
+
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[>=stealth, thick]
+  \draw[thick] (0,0) -- (11,0);
+
+  \foreach \x/\lab in {0/1945, 3.5/1985, 6/1993, 8/1998, 11/2002} {
+    \draw (\x, -0.15) -- (\x, 0.3);
+    \node[above, font=\scriptsize\bfseries] at (\x, 0.28) {\lab};
+  }
+
+  \node[below, font=\scriptsize, align=center, text=accent2] at (0,-0.2)
+    {Núremberg\\\textit{(intl.)}};
+  \node[below, font=\scriptsize, align=center, text=accent] at (3.5,-0.2)
+    {Argentina\\\textit{(doméstico)}};
+  \node[below, font=\scriptsize, align=center, text=accent2] at (6,-0.2)
+    {TPIY\\\textit{(intl.)}};
+  \node[below, font=\scriptsize, align=center, text=asher] at (8,-0.2)
+    {Pinochet\\\textit{(extranjero)}};
+  \node[below, font=\scriptsize, align=center, text=accent] at (11,-0.2)
+    {CPI\\\textit{(permanente)}};
+\end{tikzpicture}}
+
+\vspace{8pt}
+{\scriptsize \textcolor{accent2}{$\blacksquare$} internacional \quad \textcolor{accent}{$\blacksquare$} doméstico/extranjero \quad \textcolor{asher}{$\blacksquare$} extranjero}
+
+\vspace{6pt}
+\onslide<2->{\small Cada hito expande la norma: más actores, más tipos de delitos, más jurisdicciones}
 
 \end{frame}
 % ----------------------------------------------------
-\note{La CPI es la primera corte penal permanente con jurisdicción universal sobre individuos, no sobre Estados. Datos clave:
+\note{El arco histórico de la justicia internacional:
 \begin{itemize}
-  \item 124 Estados partes. Los grandes ausentes: EE.UU. (firmó pero retiró la firma en 2002 bajo Bush), Rusia (igual), China, India
-  \item Primera condena: Thomas Lubanga Dyilo (Congo) en 2012 por usar niños soldados. Condenado a 14 años
-  \item Al-Bashir (Sudán): primer jefe de Estado en ejercicio imputado por genocidio. Pero viajó libremente por África porque muchos Estados se negaron a arrestarlo
-  \item La percepción de que la CPI persigue solo a africanos ha debilitado su legitimidad. Los 24 casos en ocho países son todos en África (aunque hay investigaciones en otros lugares)
-  \item El efecto disuasorio es real pero limitado: la investigación emergente sugiere que las imputaciones de la CPI pueden a veces prolongar los conflictos porque los líderes acusados no tienen incentivos para negociar su salida
+  \item \textbf{Núremberg (1945-46):} primer tribunal penal internacional; nuevos conceptos (crímenes contra la humanidad, crímenes contra la paz)
+  \item \textbf{Argentina (1985):} primer juicio doméstico a los líderes de una dictadura por violaciones de DDHH (Juicio a las Juntas)
+  \item \textbf{TPIY (1993):} Tribunal Penal Internacional para la ex Yugoslavia. Juzgó a Milošević, condenó a Radovan Karadžić
+  \item \textbf{Pinochet (1998):} el juez español Baltasar Garzón emitió una orden de arresto internacional. Primer caso importante de jurisdicción extranjera sobre un jefe de Estado
+  \item \textbf{CPI (2002):} primer tribunal permanente con jurisdicción universal
 \end{itemize}}
 
 % ----------------------------------------------------
 \begin{frame}
-\frametitle{El Convenio Europeo de Derechos Humanos (CEDH)}
+\frametitle{La Cascada de Justicia}
 \centering
 
 \begin{itemize}
-  \item Adoptado en 1950 por el Consejo de Europa; hoy 47 Estados miembros
-  \item Desde 1998: \textbf{derecho de petición individual} al Tribunal Europeo de DDHH
+  \setlength{\itemsep}{8pt}
+  \item Una nueva \textbf{norma internacional}: la responsabilidad \textbf{criminal individual}
   \begin{itemize}
-    \item Los individuos pueden demandar a su propio Estado
-    \item Tasa de éxito: $>$50\%
-    \item En 2016: más de 53.000 solicitudes
+    \item Los líderes son personalmente responsables de las violaciones de DDHH
   \end{itemize}
-  \item<2-> El régimen más robusto de DDHH del mundo
-  \item<2-> Importancia para las nuevas democracias de Europa del Este
+  \item<2-> Tres tipos de tribunales que la aplican:
+  \begin{itemize}
+    \item \textbf{Domésticos:} el país juzga sus propias violaciones (Argentina, 1985)
+    \item \textbf{Extranjeros:} otro país ejerce jurisdicción (Pinochet en Londres)
+    \item \textbf{Internacionales:} tribunales ad hoc o la CPI
+  \end{itemize}
+  \item<3-> Los tres tipos de juicios han crecido exponencialmente desde los años 80
+  \item<4-> Motor: redes de activistas, abogados y ONG --- la misma lógica que las TANs
 \end{itemize}
+
+\vspace{4pt}
+\small\textcolor{asher}{Sikkink (2011)}
 
 \end{frame}
 % ----------------------------------------------------
-\note{El CEDH es el sistema regional de DDHH más avanzado del mundo. Sus características únicas:
-\begin{itemize}
-  \item El derecho de petición individual (Protocolo 11, 1998): cualquier persona en un Estado miembro puede presentar una demanda ante el Tribunal Europeo si cree que el Estado ha violado sus derechos. Antes, solo los Estados podían hacerlo
-  \item El tribunal emite sentencias vinculantes y puede conceder indemnizaciones
-  \item El cumplimiento lo supervisa el Comité de Ministros del Consejo de Europa, y de forma informal la UE
-  \item Para las nuevas democracias de Europa del Este (Polonia, Hungría, países bálticos...) el CEDH ha sido un ancla importante. Pero recientemente hay tensiones: Hungría, Turquía y Rusia (hasta su expulsión del Consejo de Europa en 2022 por la invasión de Ucrania) desafiaron las decisiones del tribunal
-\end{itemize}
-El contraste con la CPI es ilustrativo: el CEDH funciona mejor porque los Estados miembros comparten valores democráticos y tienen costes reales (reputacionales, económicos) si incumplen.}
+\note{La Cascada de Justicia (Sikkink 2011) es el libro clave para entender la expansión global de los juicios por DDHH. La tesis central: desde los años 70-80, se ha difundido una nueva norma de responsabilidad criminal individual para las violaciones de DDHH. Esta norma ha desplazado gradualmente la norma anterior de impunidad y amnistía. Directamente conectado con el ciclo de vida de normas (Finnemore y Sikkink 1998): la misma Sikkink aplica su propio marco al caso de la accountability. Evidencia empírica: los países que celebran juicios por violaciones pasadas de DDHH tienen posteriormente mejores prácticas de DDHH.}
+
+% ----------------------------------------------------
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[at = (current page.center), yshift = 0cm] (cover) {%
+      \includegraphics[keepaspectratio, height=\paperheight]{../img/justice_cascade.jpg}};
+  \end{tikzpicture}
+\end{frame}
+% ----------------------------------------------------
+\note{El gráfico de Sikkink muestra el crecimiento exponencial de los juicios por DDHH desde los años 80. La tendencia es clara: la cascada. Los juicios domésticos son los más numerosos; los tribunales internacionales y los juicios extranjeros (jurisdicción universal) son más recientes pero también crecen. Preguntar a los estudiantes: ¿qué factores pueden explicar la aceleración a partir de los años 90?}
 
 % ----------------------------------------------------
 \begin{frame}
-\frametitle{Justicia transicional}
+\frametitle{CPI y CEDH: dos modelos de rendición de cuentas}
+\centering
+
+\begin{columns}[T]
+  \begin{column}{0.47\textwidth}
+    \centering
+    \textbf{\textcolor{accent}{CPI}} \\
+    \textit{\scriptsize Corte Penal Internacional (2002)}
+    \vspace{6pt}
+    \begin{itemize}
+      \item Global: 124 Estados partes
+      \item Juzga individuos: genocidio, crímenes de guerra
+      \item Complementariedad: solo si el Estado no actúa
+      \item Débil: EE.UU., Rusia, China fuera; ¿tribunal africano?
+    \end{itemize}
+  \end{column}
+  \begin{column}{0.47\textwidth}
+    \centering
+    \textbf{\textcolor{accent2}{CEDH}} \\
+    \textit{\scriptsize Convenio Europeo de DDHH (1950)}
+    \vspace{6pt}
+    \begin{itemize}
+      \item Regional: 47 Estados del Consejo de Europa
+      \item Petición individual al Tribunal Europeo
+      \item Tasa de éxito: $>$50\%; 53.000+ solicitudes/año
+      \item El régimen más sólido del mundo
+    \end{itemize}
+  \end{column}
+\end{columns}
+
+\vspace{10pt}
+\onslide<2->{\small ¿Por qué el CEDH funciona mejor? Los miembros comparten valores\\y hay costes reales por incumplir}
+
+\end{frame}
+% ----------------------------------------------------
+\note{El contraste CPI/CEDH es la lección clave de esta sección:
+\begin{itemize}
+  \item \textbf{CPI:} universalismo vs. soberanía. Alcance global pero sin los Estados poderosos (EE.UU., Rusia, China fuera). La complementariedad reduce su efectividad. Las acusaciones concentradas en África debilitan su legitimidad. La investigación sugiere que las imputaciones de la CPI pueden prolongar conflictos porque los líderes acusados no tienen incentivos para negociar su salida. Primera condena: Thomas Lubanga Dyilo (Congo, 2012), 14 años por usar niños soldados
+  \item \textbf{CEDH:} el éxito refleja la homogeneidad de valores entre Estados miembros y los costes reales (reputacionales, económicos) por incumplir. El derecho de petición individual (Protocolo 11, 1998) es su característica más innovadora: cualquier persona puede demandar a su propio Estado ante el Tribunal Europeo
+  \item La diferencia no es de diseño sino de contexto: el CEDH opera en un espacio geopolítico cohesionado; la CPI opera en un mundo con grandes potencias y intereses divergentes
+\end{itemize}}
+
+% ----------------------------------------------------
+\begin{frame}
+\frametitle{Justicia transicional: mecanismos}
 \centering
 
 \begin{itemize}
-  \item Tras conflictos con violaciones masivas: ¿cómo reconstruir?
-  \item<2-> Mecanismos:
-  \begin{itemize}
-    \item \textbf{Juicios penales:} Núremberg, Tribunal Penal Internacional para ex-Yugoslavia
-    \item \textbf{Comisiones de Verdad y Reconciliación:} Sudáfrica (1995--2002), Argentina
-    \item \textbf{Reparaciones} a las víctimas
-    \item \textbf{Lustración:} excluir a exfuncionarios del nuevo régimen
-  \end{itemize}
-  \item<3-> Tensión: \textit{accountability} vs.~\textit{amnistía} para facilitar la transición
+  \setlength{\itemsep}{6pt}
+  \item<1-> \textbf{Juicios penales:} responsabilidad criminal individual
+  \item<2-> \textbf{Amnistías:} olvido legal a cambio de paz (a veces condicional)
+  \item<3-> \textbf{Reparaciones:} compensación económica o simbólica a las víctimas
+  \item<4-> \textbf{Lustración:} exclusión de exfuncionarios del nuevo régimen
+  \item<5-> \textbf{Comisiones de Verdad:} establecer un registro público de lo ocurrido
+  \item<6-> \textbf{Memoria y símbolos:} renombrar calles, exhumaciones, monumentos
 \end{itemize}
 
 \end{frame}
 % ----------------------------------------------------
-\note{La justicia transicional es el conjunto de mecanismos que las sociedades usan para gestionar el legado de violaciones masivas de DDHH. Se desarrolló como campo a partir de los años 80-90, durante la ola de transiciones democráticas en América Latina y Europa del Este.
+\note{La justicia transicional es el conjunto de mecanismos que las sociedades usan para gestionar el legado de violaciones masivas de DDHH. Se desarrolló como campo a partir de los años 80-90, durante las transiciones democráticas en América Latina y Europa del Este. No son mecanismos mutuamente excluyentes: muchas sociedades los combinan. Argentina usó juicios y reparaciones. Sudáfrica optó por amnistías condicionales y una comisión de verdad. Alemania hizo todo: juicios (Núremberg), desnazificación (lustración), reparaciones a Israel, y un largo proceso de memoria pública.}
+
+% ----------------------------------------------------
+\begin{frame}
+\frametitle{Juicios vs.\ amnistías: el dilema}
+\centering
+
+\begin{columns}[T]
+  \begin{column}{0.47\textwidth}
+    \centering
+    \textbf{\textcolor{accent}{A favor de los juicios}}
+    \begin{itemize}
+      \item Justicia para las víctimas
+      \item Efecto disuasorio: menos violaciones futuras
+      \item Legitimidad del nuevo régimen
+      \item La CPI \textbf{prohíbe} amnistías para crímenes bajo su jurisdicción
+    \end{itemize}
+  \end{column}
+  \begin{column}{0.47\textwidth}
+    \centering
+    \textbf{\textcolor{accent2}{A favor de las amnistías}}
+    \begin{itemize}
+      \item Facilita las transiciones (los autócratas negocian su salida)
+      \item Reduce incentivos para prolongar el conflicto
+      \item Pragmatismo: la paz antes que la justicia
+    \end{itemize}
+  \end{column}
+\end{columns}
+
+\vspace{10pt}
+\onslide<2->{\small \textbf{Las comisiones de verdad} intentan combinar ambas lógicas:\\
+verdad a cambio de amnistía condicional}
+
+\end{frame}
+% ----------------------------------------------------
+\note{El dilema central de la justicia transicional. Los argumentos para los juicios son tanto morales (justicia, verdad, reconocimiento de las víctimas) como instrumentales (disuasión, Sikkink 2011). Los argumentos para las amnistías son pragmáticos: los líderes de un régimen que temen ser juzgados tienen incentivos para no entregar el poder. La Ley de Amnistía española de 1977 fue negociada para facilitar la transición a la democracia. El caso de Colombia y las FARC (2016): el Acuerdo de Paz incluyó un sistema especial de justicia (JEP) con sanciones reducidas a cambio de verdad.}
+
+% ----------------------------------------------------
+\begin{frame}
+\frametitle{Comisiones de verdad: Argentina y Sudáfrica}
+\centering
+
+\begin{columns}[T]
+  \begin{column}{0.47\textwidth}
+    \centering
+    \textbf{\textcolor{accent}{Argentina}}\\
+    \textbf{CONADEP (1984)}
+    \vspace{6pt}
+    \begin{itemize}
+      \item Comisión presidencial, no judicial
+      \item Investigó la ``Guerra Sucia'' (1976--83)
+      \item Informe: \textit{Nunca Más} (1984)
+      \item Base para los juicios posteriores
+    \end{itemize}
+  \end{column}
+  \begin{column}{0.47\textwidth}
+    \centering
+    \textbf{\textcolor{accent2}{Sudáfrica}}\\
+    \textbf{Comisión de Verdad y Reconciliación (CVR, 1995--2002)}
+    \vspace{6pt}
+    \begin{itemize}
+      \item Presidida por Desmond Tutu
+      \item Amnistía \textit{condicional}: revelar la verdad completa
+      \item ``Comprensión, no venganza''
+      \item Más de 40 países han adoptado este modelo
+    \end{itemize}
+  \end{column}
+\end{columns}
+
+\end{frame}
+% ----------------------------------------------------
+\note{Dos modelos de comisiones de verdad:
 \begin{itemize}
-  \item \textbf{Juicios:} el modelo de Núremberg (1945-46) estableció el principio de que los individuos son responsables bajo el derecho internacional. El Tribunal Penal Internacional para ex-Yugoslavia (1993) y para Ruanda (1994) fueron los primeros desde Núremberg
-  \item \textbf{Comisiones de Verdad:} el modelo surafricano (CVR, 1995-2002) presidido por el arzobispo Desmond Tutu. Amnistía condicional a cambio de revelación completa de la verdad. El objetivo: ``comprensión, no venganza; reparación, no represalia''
-  \item \textbf{La tensión:} los procuradores de la CPI argumentan que las amnistías violan el derecho internacional de DDHH. Los pragmáticos responden que sin amnistía los líderes opresores lucharán hasta el final, prolongando el sufrimiento
-\end{itemize}}
+  \item \textbf{Argentina (CONADEP):} creada por Raúl Alfonsín en 1983. El informe \textit{Nunca Más} documentó 9.000 casos de desaparecidos (la cifra real según organizaciones de DDHH: ~30.000). Sin amnistía: las pruebas recopiladas fueron la base para el Juicio a las Juntas (1985)
+  \item \textbf{Sudáfrica (CVR):} modelo de amnistía condicional. Los perpetradores podían solicitar amnistía a cambio de revelación completa y pública de sus crímenes. Desmond Tutu, Premio Nobel de la Paz y arzobispo anglicano, presidió la comisión. Frase famosa: ``No hay futuro sin perdón'' (\textit{No Future Without Forgiveness}, 2000)
+\end{itemize}
+Más de 40 países han creado comisiones de verdad desde los años 80.}
 
 % ====================================================
 
 % ----------------------------------------------------
 \begin{frame}
 \centering
-\vspace{30pt}
+\vspace{2em}
 
-{\large ¿Tiene la comunidad internacional derecho y obligación de intervenir\\
-cuando un gobierno masacra a su propia población?}
+{\large ¿Juicios, amnistías o comisiones de verdad?}
 
-\vspace{15pt}
-\small ¿Dónde está el límite entre soberanía e intervención legítima?\\
-¿Quién decide?
+\vspace{1.5em}
+\small ¿Qué mecanismo crees que es más eficaz para prevenir futuras violaciones de DDHH?\\[0.5em]
+¿Y el más justo para las víctimas?
 
 \end{frame}
 % ----------------------------------------------------
-\note{Pregunta de discusión. Casos posibles a debatir: Ruanda (1994), Kosovo (1999), Libia (2011), Siria (2011-), Gaza (2023-). Ejes del debate: soberanía vs.~humanidad; eficacia de la intervención; imperialismo humanitario; el papel del CS-ONU y el poder de veto. Conectar con el marco I-I-I: los intereses de las grandes potencias condicionan las instituciones internacionales, que a su vez condicionan las interacciones posibles.}
+\note{Pregunta de discusión. Ejes del debate: eficacia vs. justicia; pragmatismo vs. principios; el punto de vista de las víctimas vs. el de los transicionistas. Casos posibles a comparar: Argentina (juicios + verdad), Sudáfrica (verdad + amnistía condicional), España (amnistía sin verdad ni juicios), Colombia (JEP: justicia transicional negociada). Conectar con la Cascada de Justicia: ¿está la norma de accountability desplazando definitivamente a la norma de amnistía?}
 
 % ----------------------------------------------------
 \begin{frame}
@@ -699,11 +869,10 @@ cuando un gobierno masacra a su propia población?}
 \centering
 
 \begin{itemize}
-  \item \textbf{Intereses:} los Estados crean y cumplen el derecho internacional cuando los beneficios de la cooperación superan los costes; los DDHH se violan cuando la supervivencia del régimen está en juego
-  \vspace{8pt}
+  \setlength{\itemsep}{10pt}
+  \item \textbf{Intereses:} los Estados crean y cumplen el DI cuando los beneficios de la cooperación superan los costes; los DDHH se violan cuando la supervivencia del régimen está en juego
   \item<2-> \textbf{Interacciones:} la reciprocidad y la reputación hacen cumplir las normas; las TANs activan el efecto bumerán para ejercer presión transnacional
-  \vspace{8pt}
-  \item<3-> \textbf{Instituciones:} el derecho internacional y las normas reducen la incertidumbre y crean expectativas; la CPI y la CEDH institucionalizan la rendición de cuentas; la R2P intenta reconciliar soberanía con DDHH
+  \item<3-> \textbf{Instituciones:} el DI reduce la incertidumbre y crea expectativas; la CPI y la CEDH institucionalizan la rendición de cuentas; la R2P reconcilia soberanía con DDHH
 \end{itemize}
 
 \end{frame}
