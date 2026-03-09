@@ -16,7 +16,7 @@
   \item Normas internacionales y cómo se difunden
   \item Derechos humanos (DDHH): historia y régimen internacional
   \item Responsabilidad de Proteger (R2P) y tensión soberanía/DDHH
-  \item Mecanismos de rendición de cuentas: CPI, CEDH y justicia transicional
+  \item Mecanismos de rendición de cuentas: CPI, TEDH y justicia transicional
 \end{itemize}
 \end{frame}
 % ----------------------------------------------------
@@ -122,6 +122,31 @@ Ejemplo & Convenciones de Ginebra & Declaración Universal \\
 % IMAGE NEEDED: geneva_convention.jpg -- fotografía histórica de la primera firma de la Convención de Ginebra (1864) o de la Cruz Roja en acción durante un conflicto; alternativamente, foto de los delegados en la conferencia de Ginebra de 1949
 \note{Las Convenciones de Ginebra son el ejemplo más exitoso del derecho internacional humanitario. Surgieron de la iniciativa de Henry Dunant, un banquero suizo que presenció la batalla de Solferino en 1859 y quedó horrorizado por el sufrimiento de los heridos. Fundó la Cruz Roja y promovió el primer convenio de 1864. Hoy todos los 193 miembros de la ONU las han ratificado. Incluso en guerras brutales como la Segunda Guerra Mundial, los convenios influyeron en el trato a los prisioneros -- aunque con muchísimas violaciones. La clave: la reciprocidad. Los ejércitos tratan bien a los prisioneros enemigos esperando que el enemigo haga lo mismo con los suyos.}
 
+% ----------------------------------------------------
+\begin{frame}
+\frametitle{Convenciones de Ginebra}
+\centering
+
+\begin{itemize}
+  \item Primera Convención de Ginebra firmada en 1964
+  \begin{itemize}
+      \item Revisadas en 1906, 1929 y 1949
+      \item Regulan derechos y protecciones de no combatientes, prisoneros de guerra, etc
+  \end{itemize}
+  \item Papel de Henry Dunant: empresario suizo que estuvo presente en la Batalla de Solferino (1859) y quedó horrorizado
+  \begin{itemize}
+      \item Fundó la Cruz Roja (1863) y promovió la primera convención
+  \end{itemize}
+  \item Hoy en día, firmadas por \textbf{todos los estados}
+  \begin{itemize}
+      \item Reciprocidad, reputación internacional, presión, moral...
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+% ----------------------------------------------------
+\note{}
+
 % ====================================================
 \section{Normas internacionales}
 % ====================================================
@@ -163,6 +188,52 @@ Normas internacionales
 \end{itemize}
 Las normas se revelan mejor cuando se violan: el actor que las viola siente la necesidad de justificarse.}
 
+
+% ----------------------------------------------------
+\begin{frame}
+\frametitle{Normas: ¿qué son y cómo funcionan?}
+\centering
+
+\begin{itemize}
+  \item Muchas leyes empiezan como normas, que vienen de ideas sobre lo que está bien y mal
+  \item Por lo general, la pregunta es cómo una idea que al principio puede parecer muy radical o marginal termina siendo adoptada por todos
+\end{itemize}
+
+\end{frame}
+% ----------------------------------------------------
+\note{}
+
+% ----------------------------------------------------
+\imageframe{../img/suffragettes}
+\note{}
+% ----------------------------------------------------
+
+% ----------------------------------------------------
+\imageframe{../img/abolitionism}
+\note{}
+% ----------------------------------------------------
+
+% ----------------------------------------------------
+\imageframe{../img/chemicalwwi}
+\note{}
+% ----------------------------------------------------
+
+% ----------------------------------------------------
+\imageframe{../img/chemicalwc}
+\note{}
+% ----------------------------------------------------
+
+% ----------------------------------------------------
+\imageframe{../img/landmines}
+\note{}
+% ----------------------------------------------------
+
+% ----------------------------------------------------
+\imageframe{../img/climate}
+\note{}
+% ----------------------------------------------------
+
+
 % ----------------------------------------------------
 \begin{frame}
 \frametitle{El ciclo de vida de las normas}
@@ -173,21 +244,21 @@ Las normas se revelan mejor cuando se violan: el actor que las viola siente la n
 \begin{tikzpicture}[>=stealth, thick]
   % Stage boxes
   \node[draw, fill=accent!20, rounded corners, minimum width=2.5cm, minimum height=1.2cm, align=center] (s1) at (0,0) {\textbf{1. Emprendedores}\\\small de normas};
-  \node[draw, fill=accent!40, rounded corners, minimum width=2.5cm, minimum height=1.2cm, align=center] (s2) at (4.5,0) {\textbf{2. Cascada}\\\small masa crítica};
-  \node[draw, fill=accent!70, rounded corners, minimum width=2.5cm, minimum height=1.2cm, align=center, text=white] (s3) at (9,0) {\textbf{3. Internalización}\\\small taken-for-granted};
+  \onslide<2->{\node[draw, fill=accent!40, rounded corners, minimum width=2.5cm, minimum height=1.2cm, align=center] (s2) at (4.5,0) {\textbf{2. Cascada}\\\small masa crítica};}
+  \onslide<3->{\node[draw, fill=accent!70, rounded corners, minimum width=2.5cm, minimum height=1.2cm, align=center, text=white] (s3) at (9,0) {\textbf{3. Internalización}\\\small taken-for-granted};}
 
   % Arrows
-  \draw[->] (s1) -- (s2);
-  \draw[->] (s2) -- (s3);
+  \onslide<2->{\draw[->] (s1) -- (s2);}
+  \onslide<3->{\draw[->] (s2) -- (s3);}
 
   % Labels below (explicit coordinates)
   \node[align=center, font=\scriptsize] at (0, -1.1) {TANs, ONG,\\líderes morales};
-  \node[align=center, font=\scriptsize] at (4.5, -1.1) {Punto de inflexión\\coerción / socialización};
-  \node[align=center, font=\scriptsize] at (9, -1.1) {La norma se vuelve\\``obvia''};
+  \onslide<2->{\node[align=center, font=\scriptsize] at (4.5, -1.1) {Punto de inflexión\\coerción / socialización};}
+  \onslide<3->{\node[align=center, font=\scriptsize] at (9, -1.1) {La norma se vuelve\\``obvia''};}
 \end{tikzpicture}}
 
-\vspace{8pt}
-\onslide<2->{\small Finnemore \& Sikkink (1998)}
+\vspace{20pt}
+{\small Finnemore \& Sikkink (1998)}
 
 \end{frame}
 % ----------------------------------------------------
@@ -246,15 +317,15 @@ Las TANs son más eficaces como avalistas y monitores que como ejecutoras direct
   \node[draw, fill=accent2!20, rounded corners, align=center, minimum width=2.2cm, minimum height=0.9cm] (ngo1) at (0,0) {\small ONG\\\small (país A)};
   \node[draw, fill=accent!20, rounded corners, align=center, minimum width=2.2cm, minimum height=0.9cm] (gov1) at (0,-2.5) {\small Gobierno\\\small (país A)};
   \node[draw, fill=accent!20, rounded corners, align=center, minimum width=2.2cm, minimum height=0.9cm] (ngo2) at (6,0) {\small TANs\\\small internacionales};
-  \node[draw, fill=accent2!20, rounded corners, align=center, minimum width=2.2cm, minimum height=0.9cm] (gov2) at (6,-2.5) {\small Gobierno\\\small (país B / OI)};
+  \only<2->{\node[draw, fill=accent2!20, rounded corners, align=center, minimum width=2.2cm, minimum height=0.9cm] (gov2) at (6,-2.5) {\small Gobierno\\\small (país B / OI)};}
 
   \draw[->, dashed, accent2, thick] (ngo1) -- node[right, xshift=2pt]{\scriptsize bloqueada} (gov1);
   \draw[->, accent, thick] (ngo1) -- node[above]{\scriptsize apela} (ngo2);
-  \draw[->, accent, thick] (ngo2) -- (gov2);
-  \draw[->, accent2, thick] (gov2) -- node[right]{\scriptsize presión} (gov1);
+  \only<2->{\draw[->, accent, thick] (ngo2) -- (gov2);}
+  \only<2->{\draw[->, accent2, thick] (gov2) -- node[above]{\scriptsize presión} (gov1);}
 \end{tikzpicture}
 
-\vspace{6pt}
+\vspace{15pt}
 \small Keck \& Sikkink (1998)
 
 \end{frame}
@@ -273,7 +344,7 @@ El caso más claro es el movimiento antiapartheid en Sudáfrica. Los grupos negr
 \centering
 \vspace{2em}
 
-{\large ¿Puedes pensar en una norma que esté hoy\\en la primera fase --- la de los emprendedores de normas?}
+{\large ¿Ejemplo de una norma que esté hoy en la primera fase?}
 
 \end{frame}
 % ----------------------------------------------------
@@ -289,6 +360,7 @@ Derechos humanos
 \end{transitionframe}
 % ----------------------------------------------------
 \note{}
+
 
 % ----------------------------------------------------
 \begin{frame}[plain]
@@ -338,11 +410,13 @@ Año & Instrumento & Tipo \\
 \hline
 1948 & Declaración Universal de DDHH (DUDH) & Blando \\
 1948 & Convención sobre el Genocidio & Duro \\
-1966/76 & Pacto Internacional de Derechos Civiles y Políticos (PIDCP) & Duro \\
-1966/76 & Pacto Internacional de Derechos Económicos, Sociales y Culturales (PIDESC) & Duro \\
-1984 & Convención contra la Tortura (CAT) & Duro \\
-1998/2002 & Estatuto de Roma / Corte Penal Internacional (CPI) & Duro \\
+\only<2->{1966/76 & Pacto Internacional de Derechos Civiles y Políticos (PIDCP) & Duro \\}
+\onslide<2->{1966/76 & Pacto Internacional de Derechos Económicos, Sociales y Culturales (PIDESC) & Duro \\}
+\onslide<3->{1984 & Convención contra la Tortura (CAT) & Duro \\}
+\onslide<4->{1998/2002 & Estatuto de Roma / Corte Penal Internacional (CPI) & Duro \\}
 \end{tabular}
+
+\vfill
 
 \end{frame}
 % ----------------------------------------------------
@@ -351,12 +425,12 @@ Año & Instrumento & Tipo \\
   \item La DUDH de 1948 es la base moral, pero es derecho blando. La Convención sobre el Genocidio (1948) fue el primer instrumento vinculante. Los EE.UU. firmaron la Convención en 1948 pero no la ratificaron hasta 1988
   \item El PIDCP y el PIDESC tardaron 18 años en negociarse y otros 10 en entrar en vigor. Reflejo de la división de la Guerra Fría
   \item La Convención contra la Tortura (1984) define la tortura con relativa precisión y prohíbe su uso de forma absoluta (es un derecho no derogable)
-  \item La CPI (Estatuto de Roma, 1998; en vigor 2002) es la culminación: un tribunal permanente que puede juzgar a individuos por crímenes de guerra, crímenes contra la humanidad y genocidio. Notablemente, EE.UU., Rusia y China no son partes
+  \item La CPI/ICC (Estatuto de Roma, 1998; en vigor 2002) es la culminación: un tribunal permanente que puede juzgar a individuos por crímenes de guerra, crímenes contra la humanidad y genocidio. Notablemente, EE.UU., Rusia y China no son partes
 \end{itemize}}
 
 % ----------------------------------------------------
 \begin{frame}
-\frametitle{¿Son universales los DDHH?}
+\frametitle{¿Son universales los DDHH? Depende quién responda}
 \centering
 
 \begin{columns}[T]
@@ -380,8 +454,9 @@ Año & Instrumento & Tipo \\
   \end{column}
 \end{columns}
 
-\vspace{12pt}
+\vspace{15pt}
 \onslide<2->{\small Los DDHH son un \textbf{campo de batalla político}, no solo un principio moral}
+\onslide<3->{\small Críticas desde la izquierda y la derecha}
 
 \end{frame}
 % ----------------------------------------------------
@@ -393,32 +468,47 @@ Año & Instrumento & Tipo \\
 \end{itemize}
 La tensión real no es tanto entre culturas como entre soberanía e intervención: los Estados más reticentes a los DDHH internacionales son los que tienen más que perder si se aceptan mecanismos de rendición de cuentas externos.}
 
+
 % ----------------------------------------------------
-\begin{frame}
-\frametitle{¿Por qué violan derechos los Estados?}
-\centering
-
-\begin{itemize}
-  \item \textbf{Falta de capacidad:} no pueden garantizar los derechos aunque quieran
-  \item<2-> \textbf{Seguridad nacional:} la represión como respuesta a amenazas (reales o percibidas)
-  \begin{itemize}
-    \item EE.UU.: internamiento de japoneses-americanos (1942), Abu Ghraib (2004)
-  \end{itemize}
-  \item<3-> \textbf{Supervivencia del régimen:} reprimir a la oposición para mantenerse en el poder
-  \begin{itemize}
-    \item Argentina: ``Guerra Sucia'' (1976--83) -- ~10.000 desaparecidos
-    \item Ruanda: genocidio tutsi (1994) -- ~800.000 muertos en 100 días
-  \end{itemize}
-\end{itemize}
-
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[at = (current page.center), xshift = -3cm] (cover) {%
+      \includegraphics[keepaspectratio, height=\paperheight]{../img/moyn_not_enough}};
+    \only<2->{\node[at = (current page.center), xshift = 3cm] (cover) {%
+      \includegraphics[keepaspectratio, height=\paperheight]{../img/rabkin_law_without_nations}};}
+    \only<3->{\node[at = (current page.center), xshift = 3cm] (cover) {%
+      \includegraphics[keepaspectratio, height=\paperheight]{../img/snyder2022}};}
+  \end{tikzpicture}
 \end{frame}
 % ----------------------------------------------------
-\note{Tres razones por las que los Estados violan los DDHH:
-\begin{enumerate}
-  \item \textbf{Capacidad:} muchos países pobres no pueden financiar escolarización universal (exigida por el PIDESC). O no controlan suficientemente a sus fuerzas de seguridad. Abu Ghraib: abuso por soldados actuando aparentemente de manera autónoma, no como política oficial (aunque esta distinción es discutida)
-  \item \textbf{Seguridad nacional:} en situaciones de guerra real o percibida, los Estados tienden a restringir derechos. Los internados japoneses-americanos durante la WWII. El debate sobre la tortura en la ``guerra contra el terror'' tras el 11-S. En todos los casos, el Estado argumenta que la seguridad es prioritaria
-  \item \textbf{Supervivencia del régimen:} el caso más puro. La dictadura militar argentina secuestró, torturó y asesinó a unos 10.000 opositores. Los ``vuelos de la muerte'' (arrojar prisioneros al océano desde aviones). El genocidio en Ruanda: los extremistas hutus utilizaron la radio para coordinar el asesinato sistemático de tutsis. Los regímenes autoritarios o semiautoritarios son significativamente más propensos a violar DDHH
-\end{enumerate}}
+\note{}
+
+% % ----------------------------------------------------
+% \begin{frame}
+% \frametitle{¿Por qué violan derechos los Estados?}
+% \centering
+
+% \begin{itemize}
+%   \item \textbf{Falta de capacidad:} no pueden garantizar los derechos aunque quieran
+%   \item<2-> \textbf{Seguridad nacional:} la represión como respuesta a amenazas (reales o percibidas)
+%   \begin{itemize}
+%     \item EE.UU.: internamiento de japoneses-americanos (1942), Abu Ghraib (2004)
+%   \end{itemize}
+%   \item<3-> \textbf{Supervivencia del régimen:} reprimir a la oposición para mantenerse en el poder
+%   \begin{itemize}
+%     \item Argentina: ``Guerra Sucia'' (1976--83) -- ~10.000 desaparecidos
+%     \item Ruanda: genocidio tutsi (1994) -- ~800.000 muertos en 100 días
+%   \end{itemize}
+% \end{itemize}
+
+% \end{frame}
+% % ----------------------------------------------------
+% \note{Tres razones por las que los Estados violan los DDHH:
+% \begin{enumerate}
+%   \item \textbf{Capacidad:} muchos países pobres no pueden financiar escolarización universal (exigida por el PIDESC). O no controlan suficientemente a sus fuerzas de seguridad. Abu Ghraib: abuso por soldados actuando aparentemente de manera autónoma, no como política oficial (aunque esta distinción es discutida)
+%   \item \textbf{Seguridad nacional:} en situaciones de guerra real o percibida, los Estados tienden a restringir derechos. Los internados japoneses-americanos durante la WWII. El debate sobre la tortura en la ``guerra contra el terror'' tras el 11-S. En todos los casos, el Estado argumenta que la seguridad es prioritaria
+%   \item \textbf{Supervivencia del régimen:} el caso más puro. La dictadura militar argentina secuestró, torturó y asesinó a unos 10.000 opositores. Los ``vuelos de la muerte'' (arrojar prisioneros al océano desde aviones). El genocidio en Ruanda: los extremistas hutus utilizaron la radio para coordinar el asesinato sistemático de tutsis. Los regímenes autoritarios o semiautoritarios son significativamente más propensos a violar DDHH
+% \end{enumerate}}
 
 % ----------------------------------------------------
 \begin{frame}
@@ -426,23 +516,24 @@ La tensión real no es tanto entre culturas como entre soberanía e intervenció
 \centering
 
 \begin{itemize}
-  \item \textbf{Compromiso sincero:} algunos gobiernos genuinamente creen en los derechos
-  \item<2-> \textbf{Bloquear retrocesos} (Moravcsik): los gobiernos democratizantes se ``atan'' para impedir regresiones futuras
+  \item[] Está claro por qué los Estados violan derechos, ¿pero por qué se atan las manos y firman los acuerdos?
+  \item<2-> \textbf{Compromiso sincero:} algunos gobiernos genuinamente creen en los derechos
+  \item<3-> \textbf{Bloquear retrocesos}: los gobiernos democratizantes se ``atan'' para impedir regresiones futuras
   \begin{itemize}
     \item Las democracias nuevas firman más tratados que las consolidadas
   \end{itemize}
-  \item<3-> \textbf{Señalización:} aparentar cumplimiento sin cambiar conducta
+  \item<4-> \textbf{Señalización:} aparentar cumplimiento sin cambiar conducta
   \begin{itemize}
     \item ``Valor expresivo'' --- firma para ganar reputación internacional
   \end{itemize}
-  \item<4-> \textbf{Condicionalidad:} firmar para recibir ayuda, acceso a la UE...
+  \item<5-> \textbf{Condicionalidad:} firmar para recibir ayuda, acceso a la UE...
 \end{itemize}
 
 \end{frame}
 % ----------------------------------------------------
 \note{La paradoja del cumplimiento en DDHH: a veces los países que más violan derechos son los que más tratados firman. Vreeland (2008) muestra que las dictaduras multipartidistas tanto firman la CAT como utilizan la tortura más que la media. ¿Por qué? Porque la oposición doméstica presiona para firmar, pero el régimen sigue torturando porque necesita reprimir para sobrevivir. Tres explicaciones alternativas para la firma:
 \begin{itemize}
-  \item Moravcsik: los nuevos demócratas de Europa del Sur y del Este firmaron la CEDH para protegerse contra posibles golpes futuros. Es una forma de comprometerse creíblemente con la democracia
+  \item Moravcsik: los nuevos demócratas de Europa del Sur y del Este firmaron la TEDH para protegerse contra posibles golpes futuros. Es una forma de comprometerse creíblemente con la democracia
   \item Señalización pura: algunos Estados firman para parecer ``civilizados'' ante la comunidad internacional pero sin intención de cambiar conducta. Hathaway lo llama el ``valor expresivo'' de los tratados
   \item Condicionalidad: la UE exigió la ratificación de la Convención Europea de DDHH y otros tratados como condición de adhesión. Turquía ha tenido que mejorar su récord de DDHH (especialmente con los kurdos) como condición para las negociaciones de adhesión
 \end{itemize}}
@@ -462,7 +553,8 @@ La tensión real no es tanto entre culturas como entre soberanía e intervenció
   \begin{itemize}
     \item Los tratados funcionan \textit{si} hay tribunales domésticos fuertes
     \item Los tratados funcionan \textit{si} hay muchas ONG activas
-    \item El largo plazo: el ejemplo de Helsinki (1975) y la caída del comunismo
+    \item La amenaza de castigo sí parece hacer que algunos actores (estados y no estados) no cometan tantas violaciones
+    \item A largo plazo: el ejemplo de Helsinki (1975) y la caída del comunismo, o la Convención de la Tortura (1983) y Pinochet
   \end{itemize}
 \end{itemize}
 
@@ -476,25 +568,47 @@ La tensión real no es tanto entre culturas como entre soberanía e intervenció
 \end{itemize}
 Conclusión: el efecto existe, pero es contingente, indirecto y a largo plazo.}
 
+% % ----------------------------------------------------
+% \begin{frame}
+% \centering
+% \vspace{2em}
+
+% {\large Si los tratados de DDHH no siempre mejoran el comportamiento de los Estados,\\[0.5em]\textit{¿sirve de algo firmarlos?}}
+
+% \end{frame}
+% % ----------------------------------------------------
+% \note{Pausa de reflexión. Invitar a los estudiantes a aplicar las tres razones por las que los Estados firman tratados: compromiso sincero, bloquear retrocesos (Moravcsik), señalización. La evidencia de Simmons: los tratados funcionan donde hay actores domésticos que presionan --- ONG, jueces, movimientos sociales. La respuesta no es sí/no sino contingente: depende del régimen, la sociedad civil y los mecanismos de implementación.}
+
+% % ====================================================
+% \section{R2P: la tensión entre soberanía y DDHH}
+% % ====================================================
+
+% % ----------------------------------------------------
+% \begin{transitionframe}
+% Responsabilidad de Proteger (R2P)
+% \end{transitionframe}
+% % ----------------------------------------------------
+% \note{}
+
 % ----------------------------------------------------
 \begin{frame}
+\frametitle{Soberanía y DDHH}
 \centering
-\vspace{2em}
 
-{\large Si los tratados de DDHH no siempre mejoran el comportamiento de los Estados,\\[0.5em]\textit{¿sirve de algo firmarlos?}}
+\begin{itemize}
+  \item ¿Qué pasa cuando los DDHH o el derecho internacional entran en conflicto con la soberanía?
+  \item Responsabilidad de Proteger (R2P)
+  \item Muchos ejemplos de este debate:
+  \begin{itemize}
+      \item La actual guerra de Irán
+      \item Gaza (2023--)
+      \item Iraq (2003)
+      \item Kosovo (1999)
+      \item ...
+  \end{itemize}
+\end{itemize}
 
 \end{frame}
-% ----------------------------------------------------
-\note{Pausa de reflexión. Invitar a los estudiantes a aplicar las tres razones por las que los Estados firman tratados: compromiso sincero, bloquear retrocesos (Moravcsik), señalización. La evidencia de Simmons: los tratados funcionan donde hay actores domésticos que presionan --- ONG, jueces, movimientos sociales. La respuesta no es sí/no sino contingente: depende del régimen, la sociedad civil y los mecanismos de implementación.}
-
-% ====================================================
-\section{R2P: la tensión entre soberanía y DDHH}
-% ====================================================
-
-% ----------------------------------------------------
-\begin{transitionframe}
-Responsabilidad de Proteger (R2P)
-\end{transitionframe}
 % ----------------------------------------------------
 \note{}
 
@@ -502,7 +616,7 @@ Responsabilidad de Proteger (R2P)
 \begin{frame}[plain]
   \begin{tikzpicture}[remember picture, overlay]
     \node[at = (current page.center), yshift = 0cm] (cover) {%
-      \includegraphics[keepaspectratio, height=\paperheight]{../img/rwanda_genocide.jpg}};
+      \includegraphics[keepaspectratio, width=\paperwidth]{../img/rwanda_genocide.jpg}};
   \end{tikzpicture}
 \end{frame}
 % ----------------------------------------------------
@@ -520,7 +634,8 @@ Responsabilidad de Proteger (R2P)
   \item<3-> Si un Estado no puede o no quiere proteger a su población:
   \begin{itemize}
     \item La responsabilidad \textit{recae} en la comunidad internacional
-    \item Intervención militar como último recurso
+    \item Intervención militar como \textbf{último recurso}
+    \item[] (Esto es \textbf{importante}: papel de la diplomacia y los ataques en Irán)
   \end{itemize}
   \item<4-> Aprobado por el Consejo de Seguridad de la ONU en 2006
 \end{itemize}
@@ -609,8 +724,7 @@ No hay respuesta fácil. El principio de R2P representa un progreso moral real, 
 
 % ----------------------------------------------------
 \begin{transitionframe}
-Mecanismos de rendición de cuentas:\\[8pt]
-\normalsize CPI \quad $\cdot$ \quad CEDH \quad $\cdot$ \quad Justicia transicional
+Justicia Transitional y mecanismos de rendición de cuentas
 \end{transitionframe}
 % ----------------------------------------------------
 \note{}
@@ -649,14 +763,17 @@ Mecanismos de rendición de cuentas:\\[8pt]
   \node[below, font=\scriptsize, align=center, text=asher] at (8,-0.2)
     {Pinochet\\\textit{(extranjero)}};
   \node[below, font=\scriptsize, align=center, text=accent] at (11,-0.2)
-    {CPI\\\textit{(permanente)}};
+    {CPI/ICC\\\textit{(permanente)}};
 \end{tikzpicture}}
 
 \vspace{8pt}
 {\scriptsize \textcolor{accent2}{$\blacksquare$} internacional \quad \textcolor{accent}{$\blacksquare$} doméstico/extranjero \quad \textcolor{asher}{$\blacksquare$} extranjero}
 
-\vspace{6pt}
-\onslide<2->{\small Cada hito expande la norma: más actores, más tipos de delitos, más jurisdicciones}
+\vspace{15pt}
+\begin{itemize}
+    \item<2-> Otros pioneros por el medio: Grecia (1975), Portugal (1974, ej. PIDE)
+    \item<3-> Cada hito expande la norma: más actores, más tipos de delitos, más jurisdicciones
+\end{itemize}
 
 \end{frame}
 % ----------------------------------------------------
@@ -666,7 +783,7 @@ Mecanismos de rendición de cuentas:\\[8pt]
   \item \textbf{Argentina (1985):} primer juicio doméstico a los líderes de una dictadura por violaciones de DDHH (Juicio a las Juntas)
   \item \textbf{TPIY (1993):} Tribunal Penal Internacional para la ex Yugoslavia. Juzgó a Milošević, condenó a Radovan Karadžić
   \item \textbf{Pinochet (1998):} el juez español Baltasar Garzón emitió una orden de arresto internacional. Primer caso importante de jurisdicción extranjera sobre un jefe de Estado
-  \item \textbf{CPI (2002):} primer tribunal permanente con jurisdicción universal
+  \item \textbf{CPI/ICC (2002):} primer tribunal permanente con jurisdicción universal
 \end{itemize}}
 
 % ----------------------------------------------------
@@ -676,9 +793,10 @@ Mecanismos de rendición de cuentas:\\[8pt]
 
 \begin{itemize}
   \setlength{\itemsep}{8pt}
-  \item Una nueva \textbf{norma internacional}: la responsabilidad \textbf{criminal individual}
+  \item Una nueva norma internacional:
+  \item[] la \textbf{responsabilidad criminal individual}
   \begin{itemize}
-    \item Los líderes son personalmente responsables de las violaciones de DDHH
+    \item Los líderes son personalmente responsables de las violaciones de DDHH (no inmunidad, ni el Estado)
   \end{itemize}
   \item<2-> Tres tipos de tribunales que la aplican:
   \begin{itemize}
@@ -693,15 +811,21 @@ Mecanismos de rendición de cuentas:\\[8pt]
 \vspace{4pt}
 \small\textcolor{asher}{Sikkink (2011)}
 
+  \begin{tikzpicture}[remember picture, overlay]
+    \only<5->{\node[at = (current page.center), yshift = 0cm] (cover) {%
+      \includegraphics[keepaspectratio, height=0.9\paperheight]{../img/countries_by_year.pdf}};}
+  \end{tikzpicture}
+
 \end{frame}
 % ----------------------------------------------------
 \note{La Cascada de Justicia (Sikkink 2011) es el libro clave para entender la expansión global de los juicios por DDHH. La tesis central: desde los años 70-80, se ha difundido una nueva norma de responsabilidad criminal individual para las violaciones de DDHH. Esta norma ha desplazado gradualmente la norma anterior de impunidad y amnistía. Directamente conectado con el ciclo de vida de normas (Finnemore y Sikkink 1998): la misma Sikkink aplica su propio marco al caso de la accountability. Evidencia empírica: los países que celebran juicios por violaciones pasadas de DDHH tienen posteriormente mejores prácticas de DDHH.}
+
 
 % ----------------------------------------------------
 \begin{frame}[plain]
   \begin{tikzpicture}[remember picture, overlay]
     \node[at = (current page.center), yshift = 0cm] (cover) {%
-      \includegraphics[keepaspectratio, height=\paperheight]{../img/justice_cascade.jpg}};
+      \includegraphics[keepaspectratio, height=0.7\paperheight]{../img/justice_cascade.jpg}};
   \end{tikzpicture}
 \end{frame}
 % ----------------------------------------------------
@@ -709,7 +833,7 @@ Mecanismos de rendición de cuentas:\\[8pt]
 
 % ----------------------------------------------------
 \begin{frame}
-\frametitle{CPI y CEDH: dos modelos de rendición de cuentas}
+\frametitle{CPI/ICC y TEDH/ECHR: dos modelos de rendición de cuentas}
 \centering
 
 \begin{columns}[T]
@@ -727,7 +851,7 @@ Mecanismos de rendición de cuentas:\\[8pt]
   \end{column}
   \begin{column}{0.47\textwidth}
     \centering
-    \textbf{\textcolor{accent2}{CEDH}} \\
+    \textbf{\textcolor{accent2}{TEDH}} \\
     \textit{\scriptsize Convenio Europeo de DDHH (1950)}
     \vspace{6pt}
     \begin{itemize}
@@ -740,15 +864,15 @@ Mecanismos de rendición de cuentas:\\[8pt]
 \end{columns}
 
 \vspace{10pt}
-\onslide<2->{\small ¿Por qué el CEDH funciona mejor? Los miembros comparten valores\\y hay costes reales por incumplir}
+\onslide<2->{\small ¿Por qué el TEDH funciona mejor? Los miembros comparten valores\\y hay costes reales por incumplir}
 
 \end{frame}
 % ----------------------------------------------------
-\note{El contraste CPI/CEDH es la lección clave de esta sección:
+\note{El contraste CPI/TEDH es la lección clave de esta sección:
 \begin{itemize}
   \item \textbf{CPI:} universalismo vs. soberanía. Alcance global pero sin los Estados poderosos (EE.UU., Rusia, China fuera). La complementariedad reduce su efectividad. Las acusaciones concentradas en África debilitan su legitimidad. La investigación sugiere que las imputaciones de la CPI pueden prolongar conflictos porque los líderes acusados no tienen incentivos para negociar su salida. Primera condena: Thomas Lubanga Dyilo (Congo, 2012), 14 años por usar niños soldados
-  \item \textbf{CEDH:} el éxito refleja la homogeneidad de valores entre Estados miembros y los costes reales (reputacionales, económicos) por incumplir. El derecho de petición individual (Protocolo 11, 1998) es su característica más innovadora: cualquier persona puede demandar a su propio Estado ante el Tribunal Europeo
-  \item La diferencia no es de diseño sino de contexto: el CEDH opera en un espacio geopolítico cohesionado; la CPI opera en un mundo con grandes potencias y intereses divergentes
+  \item \textbf{TEDH:} el éxito refleja la homogeneidad de valores entre Estados miembros y los costes reales (reputacionales, económicos) por incumplir. El derecho de petición individual (Protocolo 11, 1998) es su característica más innovadora: cualquier persona puede demandar a su propio Estado ante el Tribunal Europeo
+  \item La diferencia no es de diseño sino de contexto: el TEDH opera en un espacio geopolítico cohesionado; la CPI opera en un mundo con grandes potencias y intereses divergentes
 \end{itemize}}
 
 % ----------------------------------------------------
@@ -798,7 +922,7 @@ Mecanismos de rendición de cuentas:\\[8pt]
 \end{columns}
 
 \vspace{10pt}
-\onslide<2->{\small \textbf{Las comisiones de verdad} intentan combinar ambas lógicas:\\
+\onslide<2->{\small Algunas \textbf{comisiones de verdad} intentan combinar ambas lógicas:\\
 verdad a cambio de amnistía condicional}
 
 \end{frame}
@@ -848,20 +972,30 @@ Más de 40 países han creado comisiones de verdad desde los años 80.}
 
 % ====================================================
 
+% % ----------------------------------------------------
+% \begin{frame}
+% \centering
+% \vspace{2em}
+
+% {\large ¿Juicios, amnistías o comisiones de verdad?}
+
+% \vspace{1.5em}
+% \small ¿Qué mecanismo crees que es más eficaz para prevenir futuras violaciones de DDHH?\\[0.5em]
+% ¿Y el más justo para las víctimas?
+
+% \end{frame}
+% % ----------------------------------------------------
+% \note{Pregunta de discusión. Ejes del debate: eficacia vs. justicia; pragmatismo vs. principios; el punto de vista de las víctimas vs. el de los transicionistas. Casos posibles a comparar: Argentina (juicios + verdad), Sudáfrica (verdad + amnistía condicional), España (amnistía sin verdad ni juicios), Colombia (JEP: justicia transicional negociada). Conectar con la Cascada de Justicia: ¿está la norma de accountability desplazando definitivamente a la norma de amnistía?}
+
 % ----------------------------------------------------
-\begin{frame}
-\centering
-\vspace{2em}
-
-{\large ¿Juicios, amnistías o comisiones de verdad?}
-
-\vspace{1.5em}
-\small ¿Qué mecanismo crees que es más eficaz para prevenir futuras violaciones de DDHH?\\[0.5em]
-¿Y el más justo para las víctimas?
-
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[at = (current page.center), yshift = 0cm] (cover) {%
+      \includegraphics[keepaspectratio, height=\paperheight]{../img/largocaballero}};
+  \end{tikzpicture}
 \end{frame}
 % ----------------------------------------------------
-\note{Pregunta de discusión. Ejes del debate: eficacia vs. justicia; pragmatismo vs. principios; el punto de vista de las víctimas vs. el de los transicionistas. Casos posibles a comparar: Argentina (juicios + verdad), Sudáfrica (verdad + amnistía condicional), España (amnistía sin verdad ni juicios), Colombia (JEP: justicia transicional negociada). Conectar con la Cascada de Justicia: ¿está la norma de accountability desplazando definitivamente a la norma de amnistía?}
+\note{}
 
 % ----------------------------------------------------
 \begin{frame}
@@ -872,7 +1006,7 @@ Más de 40 países han creado comisiones de verdad desde los años 80.}
   \setlength{\itemsep}{10pt}
   \item \textbf{Intereses:} los Estados crean y cumplen el DI cuando los beneficios de la cooperación superan los costes; los DDHH se violan cuando la supervivencia del régimen está en juego
   \item<2-> \textbf{Interacciones:} la reciprocidad y la reputación hacen cumplir las normas; las TANs activan el efecto bumerán para ejercer presión transnacional
-  \item<3-> \textbf{Instituciones:} el DI reduce la incertidumbre y crea expectativas; la CPI y la CEDH institucionalizan la rendición de cuentas; la R2P reconcilia soberanía con DDHH
+  \item<3-> \textbf{Instituciones:} el DI reduce la incertidumbre y crea expectativas; la CPI y la TEDH institucionalizan la rendición de cuentas; la R2P reconcilia soberanía con DDHH
 \end{itemize}
 
 \end{frame}
@@ -881,7 +1015,7 @@ Más de 40 países han creado comisiones de verdad desde los años 80.}
 \begin{enumerate}
   \item Intereses: el cumplimiento del derecho internacional es mayor donde los beneficios de la cooperación son claros (comercio, transporte, diplomacia). En DDHH, los intereses son más difusos y los costes de enforcement más altos. Los Estados violan DDHH por supervivencia del régimen, no por indiferencia moral
   \item Interacciones: la reciprocidad (Convenciones de Ginebra, POW) y la reputación (naming \& shaming) son los mecanismos principales. Las TANs reducen los costes de información y activan el efecto bumerán. Las redes sociales han amplificado y acelerado estos efectos
-  \item Instituciones: el derecho internacional genera expectativas y define qué es una violación. La CPI pone a individuos (no solo a Estados) ante la rendición de cuentas. La R2P redefine la soberanía como responsabilidad, no como escudo. El CEDH muestra que un sistema robusto es posible cuando hay suficiente homogeneidad de valores y costes reales por incumplir
+  \item Instituciones: el derecho internacional genera expectativas y define qué es una violación. La CPI pone a individuos (no solo a Estados) ante la rendición de cuentas. La R2P redefine la soberanía como responsabilidad, no como escudo. El TEDH muestra que un sistema robusto es posible cuando hay suficiente homogeneidad de valores y costes reales por incumplir
 \end{enumerate}
 La próxima sesión: economía política internacional -- pasamos de las reglas de comportamiento a las reglas del comercio y las finanzas.}
 

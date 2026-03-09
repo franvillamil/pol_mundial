@@ -25,7 +25,7 @@ layout: default
 | Febrero 17 | 4. [El problema de la guerra](resources#el-problema-de-la-guerra) | [[PDF](./slides/03_guerra/guerras.pdf)] | [link](seminarios#s4) |
 | Febrero 24 | 5. [Guerras y organizaciones](resources#guerras-y-organizaciones) | [[PDF](./slides/04_guerra2/guerra2.pdf)] | [link](seminarios#s5) |
 | Marzo 3    | 6. [Conflicto interno y terrorismo](resources#terrorismo) | [[PDF](./slides/05_terror/terror.pdf)] | [link](seminarios#s6) |
-| Marzo 10   | 7. [Leyes, normas y DDHH](resources#leyes-normas-y-ddhh) | <!-- [[PDF](./slides/06_normas/normas.pdf)] --> | [link](seminarios#s7) |
+| Marzo 10   | 7. [Leyes, normas y DDHH](resources#leyes-normas-y-ddhh) | [[PDF](./slides/06_normas/normas.pdf)] | [link](seminarios#s7) |
 | Marzo 17   | 8. **Examen parcial** || [link](seminarios#s8) |
 | Marzo 24   | 9. [Comercio internacional](resources#comercio-internacional) | <!-- [[PDF](./slides/07_comercio/comercio.pdf)] --> | [link](seminarios#s9) |
 | *Marzo 31* | *Semana Santa* |||
