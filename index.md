@@ -27,9 +27,9 @@ layout: default
 | Marzo 3    | 6. [Conflicto interno y terrorismo](resources#terrorismo) | [[PDF](./slides/05_terror/terror.pdf)] | [link](seminarios#s6) |
 | Marzo 10   | 7. [Leyes, normas y DDHH](resources#leyes-normas-y-ddhh) | [[PDF](./slides/06_normas/normas.pdf)] | [link](seminarios#s7) |
 | Marzo 17   | 8. **Examen parcial** || [link](seminarios#s8) |
-| Marzo 24   | 9. [Comercio internacional](resources#comercio-internacional) | <!-- [[PDF](./slides/07_comercio/comercio.pdf)] --> | [link](seminarios#s9) |
+| Marzo 24   | 9. [Comercio internacional](resources#comercio-internacional) | [[PDF](./slides/07_comercio/comercio.pdf)] | [link](seminarios#s9) |
 | *Marzo 31* | *Semana Santa* |||
-| Abril 7    | 10. [Finanzas y dinero](resources#finanzas-y-dinero) | <!-- [[PDF](./slides/08_finanzas/finanzas.pdf)] --> | [link](seminarios#s10) |
+| Abril 7    | 10. [Finanzas y dinero](resources#finanzas-y-dinero) | [[PDF](./slides/08_finanzas/finanzas.pdf)] | [link](seminarios#s10) |
 | Abril 14  | 11. [Desarrollo económico](resources#desarrollo-económico) | <!-- [[PDF](./slides/09_devt/devt.pdf)] --> | [link](seminarios#s11) |
 | Abril 21  | 12. [Futuro y problemas emergentes](resources#futuro-y-problemas-emergentes) | <!-- [[PDF](./slides/10_futuro/futuro.pdf)] --> | [link](seminarios#s12) |
 | Abril 28  | 13. *Clase de reserva* |||
