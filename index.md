@@ -31,6 +31,6 @@ layout: default
 | *Marzo 31* | *Semana Santa* |||
 | Abril 7    | 10. [Finanzas y dinero](resources#finanzas-y-dinero) | [[PDF](./slides/08_finanzas/finanzas.pdf)] | [link](seminarios#s10) |
 | Abril 14  | 11. [Desarrollo económico](resources#desarrollo-económico) | <!-- [[PDF](./slides/09_devt/devt.pdf)] --> | [link](seminarios#s11) |
-| Abril 21  | 12. *Clase cancelada* | [link](seminarios#s12) |
+| Abril 21  | 12. *Clase cancelada* | | [link](seminarios#s12) |
 | Abril 28  | 13. [Futuro y problemas emergentes](resources#futuro-y-problemas-emergentes) | <!-- [[PDF](./slides/10_futuro/futuro.pdf)] --> |||
 | Mayo 5    | 14. Presentaciones |||
