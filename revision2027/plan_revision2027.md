@@ -1,11 +1,11 @@
 ---
 title: "Política Mundial 2027: plan de revisión"
 subtitle: "Propuesta de reestructuración, contenidos, formato y calendario de trabajo"
-date: "Borrador 2 — 16 de noviembre de 2026"
+date: "Borrador 3 — 16 de noviembre de 2026"
 lang: es
 ---
 
-# 1. Resumen y cambios respecto al borrador 1
+# 1. Resumen y cambios respecto a los borradores anteriores
 
 ## 1.1. La propuesta en una página
 
@@ -18,7 +18,28 @@ lang: es
 - **Desarrollo conserva su clase completa.** Los dos libros de Studwell se discuten en una sesión aparte, justo después.
 - **El cierre es el cambio climático** como caso que obliga a usar todo lo anterior.
 
-## 1.2. Qué cambia en este borrador
+## 1.2. Qué añade el borrador 3: los libros de `_hiddenrefs`
+
+Leí los libros que añadiste a `_hiddenrefs/polmundial/libros/`. Son más de un millón de palabras, así que no los leí enteros: de cada uno leí el índice, la introducción o el resumen del argumento, las tablas clave y los pasajes de los casos que interesan al curso. Lo que afirmo abajo sale de ahí. *How Asia Works* está en formato `.mobi` y no pude abrirlo; lo que digo de él sigue saliendo de tus notas, de mi conocimiento previo y del resumen que el propio Studwell hace en la introducción de *How Africa Works*.
+
+| Libro | Qué cambia en el plan |
+|:--------------------------|:----------------------------------------------------|
+| Studwell, *How Africa Works* | La sesión 12 deja de estar a ciegas: guion nuevo, y su introducción resume los dos libros, así que puede ser la única lectura. Cambia también cómo usar Botsuana en la sesión 11 |
+| Jo, *Compliant Rebels* | Cierra el argumento de la sesión 7: tres indicadores de «búsqueda de legitimidad» y tres conductas observables. Aporta el M23 y el MILF como casos |
+| Stanton, *Violence and Restraint in Civil War* | Decide el caso principal de la sesión 7: Timor Oriental y Aceh frente al LRA. Añade la mitad que faltaba: los gobiernos también se contienen o no |
+| Mazower, *The Greek Revolution* | Reorienta el caso de la sesión 1: una insurgencia que sobrevive hasta que las potencias la reconocen e intervienen. Abre el hilo del reconocimiento |
+| Mazower, *Governing the World* | Da la columna vertebral de la sesión 2: las instituciones internacionales como proyectos de las grandes potencias, de 1815 a hoy |
+| Cederman y coautores, *Nationalism and the Transformation of the State* | Da a la sesión 1 su argumento empírico y sus mapas: desde finales del XIX los Estados se hacen más pequeños y más homogéneos |
+| Mylonas, *The Politics of Nation-Building* | Convierte «la nación» de la sesión 1 en política internacional: asimilar, acomodar o excluir depende de quién apoya desde fuera a cada minoría |
+| Sikkink, *The Justice Cascade* | Estructura el bloque de ampliación de la sesión 8 con sus tres modelos de rendición de cuentas y fija qué capítulos leer |
+| Bevins, *The Jakarta Method* | Fija qué capítulos leer y añade el puente con la sesión 7: la invasión de Timor Oriental en 1975 |
+
+Dos consecuencias de conjunto:
+
+- **Tres países reaparecen a lo largo del curso** sin haberlo buscado: Grecia, Indonesia y Argentina (sección 3.8). Es una forma barata de dar continuidad.
+- **Se cierran dos decisiones abiertas** del borrador 2: el grupo rebelde de la sesión 7 y qué leer de Studwell.
+
+## 1.3. Qué cambió en el borrador 2
 
 | Tu indicación | Cómo queda |
 |:--------------------------------|:----------------------------------------------|
@@ -107,6 +128,28 @@ Cada libro existe en dos tamaños:
 
 Si la sesión de libro se da, la versión corta se salta en la clase de temario. Si se cae, la versión corta se queda y nada evaluable se pierde.
 
+## 3.8. Tres países que reaparecen
+
+Al cruzar los libros con el plan salen tres países que aparecen en sesiones distintas con papeles distintos. No hace falta añadir nada: basta con señalarlo cada vez.
+
+| País | Dónde y como qué |
+|:-----------|:----------------------------------------------------------------|
+| Grecia | 1821, nación e insurgencia reconocida (sesión 1); 1923, intercambio de población (1); 1975, juicio a la junta, primer caso de la cascada de la justicia (8); 2010, crisis del euro (9) |
+| Indonesia | 1955, Bandung (2 y 6); 1965, las matanzas (6); 1975–1999, Timor Oriental y Aceh, rebeldes que se contienen (7); misión de la ONU en Timor (4); el país que no despega, en Studwell (12) |
+| Argentina | Operación Cóndor (6); 1976–1985, dictadura y juicio a las Juntas (8); 2001, impago y FMI (9) |
+
+Un estudiante que siga estos tres países ve casi todo el temario: formación del Estado, Guerra Fría, violencia masiva, derecho humanitario, justicia, deuda y desarrollo.
+
+## 3.9. El hilo del reconocimiento
+
+Tu idea sobre los rebeldes que cumplen el derecho humanitario para ser reconocidos deja de ser un argumento de una sesión y pasa a ser un hilo:
+
+- **Sesión 1.** Los insurgentes griegos de 1821 no ganan la guerra: aguantan hasta que las potencias los reconocen como beligerantes (Gran Bretaña, 1823) e intervienen (Navarino, 1827). Mazower lo dice así: no fueron sus victorias, sino su negativa a aceptar la derrota.
+- **Sesión 2.** La descolonización como reconocimiento en masa: ser Estado es que los demás te admitan en el club.
+- **Sesión 5.** Rebeldes que gobiernan territorio y no son Estado.
+- **Sesión 7.** Qué hacen para conseguirlo, y cómo eso les ata a reglas que no han firmado.
+- **Sesión 8.** El reverso: gobiernos que pierden reconocimiento por cómo tratan a su población.
+
 # 4. Estructura y calendario
 
 ## 4.1. Las trece sesiones
@@ -175,12 +218,16 @@ Cada sesión sigue el mismo esquema: pregunta, guion con tiempos, contenido, opc
 **Contenido.**
 
 - *El Estado.* En 1500 conviven en Europa imperios, ciudades-Estado, ligas comerciales y territorios eclesiásticos. La guerra selecciona al que mejor extrae recursos (Tilly). Westfalia es más un mito fundacional que un punto de inflexión. Dos detalles que funcionan en clase: el pasaporte obligatorio es del siglo XX, y en 1945 la ONU tenía 51 miembros frente a los 193 actuales.
-- *La nación.* El nacionalismo como idea que reorganiza el mapa desde 1789. La revolución griega de 1821 (Mazower) como caso: una rebelión en un imperio multiétnico que las potencias acaban reconociendo como Estado nacional, y que se convierte en modelo. El coste: cuando el Estado debe coincidir con una nación, sobra gente. El intercambio de población greco-turco de 1923 como ejemplo de política oficial de «población correcta».
+- *La nación.* El nacionalismo como idea que reorganiza el mapa desde 1789. Tres piezas, cada una con su fuente:
+    - *El patrón* (Cederman y coautores, 2024). Hasta finales del XIX la guerra reduce el número de Estados y los hace más grandes, como decía Tilly. Desde entonces la tendencia se invierte: secesión, unificación e irredentismo hacen que los Estados sean más pequeños y que sus fronteras coincidan cada vez más con las de los grupos étnicos. Donde no coinciden —un pueblo gobernado por otro, o partido entre varios Estados— hay más conflicto. Fuera de Europa la descolonización siguió las fronteras coloniales y dejó a muchos grupos divididos. El libro es de acceso abierto y tiene visualizaciones interactivas de fronteras en `nastac.ethz.ch`, que sirven para proyectar en clase.
+    - *El caso* (Mazower). La revolución griega de 1821 no es una guerra que los griegos ganen: es una insurgencia en un imperio multiétnico que resiste lo suficiente para que la opinión europea, los préstamos de Londres y finalmente las flotas de las potencias la salven. Gran Bretaña reconoce a los griegos como beligerantes en 1823; Navarino es de 1827. Se convierte en el modelo de cómo nace un Estado nacional: con una nación que se proclama y unas potencias que la admiten.
+    - *El coste* (Mylonas). Cuando el Estado debe coincidir con una nación, sobra gente. Qué hace un Estado con sus minorías —asimilar, acomodar o excluir— depende menos de la minoría que de la política exterior: de si una potencia rival la respalda desde fuera. El intercambio de población greco-turco de 1923 es el caso; el internamiento de japoneses-estadounidenses en 1942, que el propio Mylonas menciona, muestra que no es cosa de los Balcanes ni de dictaduras.
 - *Adelanto de fronteras.* Una sola diapositiva: hasta 1928 conquistar territorio era legal. El resto queda para la sesión 2.
 
 **Opciones.**
 
 - *Qué caso de nacionalismo.* Grecia 1821 es tu propuesta y funciona por ser el primero. Alternativas: la unificación italiana o alemana (más conocidas, menos sorprendentes) o la partición de la India en 1947 (menos eurocéntrica, enlaza con descolonización). Podría usarse Grecia en el núcleo e India en la ampliación.
+- *Cuánto de cada libro.* Con una hora, los tres no caben desarrollados. Propuesta: el patrón de Cederman en dos diapositivas con mapa, Grecia en diez minutos, Mylonas en una diapositiva con la tipología y un ejemplo. El capítulo de Cederman y coautores sobre «restauración» (nacionalistas que reclaman una edad de oro perdida) es el mejor puente hacia Ucrania y va en la ampliación o en la sesión 3.
 - *Cuánta teoría del Estado.* Versión mínima: Tilly en una diapositiva. Versión ampliada: trayectorias no europeas (Huang y Kang, Wang) y la tesis de la Iglesia (Grzymala-Busse), que tienes anotadas. Recomiendo dejarlas en la ampliación; son debates de especialista.
 - *Sesión fusionada (opción b).* Si hubiera que fusionar 1 y 2, la versión sería: Estado y nación en 25 minutos, 1945 y Guerra Fría en 25, 1989 a hoy en 25, y fuera las teorías, que irían repartidas.
 
@@ -200,7 +247,10 @@ Cada sesión sigue el mismo esquema: pregunta, guion con tiempos, contenido, opc
 - `intercambio_poblacion_1923.jpg`: fotografía de refugiados griegos de Asia Menor embarcando, 1922–1923.
 - `miembros_onu_tiempo.pdf`: gráfico propio en R con el número de Estados miembros de la ONU por año.
 
-**Lecturas.** FLS cap. 1. Wimmer y Min (2006). Complementaria: Müller-Crepon, Schvitz y Cederman sobre *right-peopling*.
+- `fronteras_congruencia_europa.png`: par de mapas de Europa en 1816 y hoy con fronteras estatales sobre grupos étnicos, tomados de las visualizaciones de Cederman y coautores.
+- `navarino_1827.jpg`: pintura de la batalla naval (Garneray), para la intervención de las potencias.
+
+**Lecturas.** FLS cap. 1. Cederman y coautores (2024), introducción (acceso abierto). Complementarias: Mazower, *The Greek Revolution*, introducción y cap. 17 (Navarino); Mylonas (2012), cap. 1; el cap. 10 de Cederman y coautores recoge el argumento de *right-peopling* que tenías anotado como artículo.
 
 **Seminario.** Se mantiene el de 2026 (bases de datos y conflictos desde 1989), que no depende de esta clase.
 
@@ -223,6 +273,7 @@ Cada sesión sigue el mismo esquema: pregunta, guion con tiempos, contenido, opc
 
 **Contenido.**
 
+- *La idea que ordena la sesión* (Mazower, *Governing the World*). Las organizaciones internacionales no crecen poco a poco por convicción: nacen de golpe, tras una guerra, y las crean las grandes potencias porque les conviene. El Concierto de Europa en 1815, la Sociedad de Naciones en 1919 (que a Gran Bretaña le servía para ratificar el reparto territorial y proteger su imperio), la ONU en 1945 (que hacía aceptable el liderazgo estadounidense). Y cuando dejan de obedecer, la potencia se va a otra parte: en los años setenta EE. UU. se desentiende de la ONU y se apoya en el FMI, el Banco Mundial y el GATT. Esto da a la sesión una pregunta en lugar de una cronología, y hace que el desapego actual de EE. UU. tenga precedente.
 - *1945.* Aquí va el tercer «no natural» de la sesión 1: la prohibición de la conquista (Kellogg-Briand, Carta de la ONU) y la norma de integridad territorial. La descolonización multiplica los Estados y congela las fronteras coloniales (declaración de El Cairo, 1964). Presentar aquí la idea 1 de la caja: reglas sin policía.
 - *Guerra Fría.* Dos bloques, alianzas, guerras en el Tercer Mundo. Helsinki (1975) como acuerdo con dos lecturas: la URSS obtiene el reconocimiento de fronteras y Occidente una cláusula de derechos humanos que acabará usándose contra ella. Sirve de adelanto de la sesión 8.
 - *Arquitectura posterior a 1989.* Carta de París (1990), tratado 2+4, memorándum de Budapest (1994), Acta Fundacional OTAN-Rusia (1997), ampliaciones de 1999 y 2004, cumbre de Bucarest (2008). Una línea de tiempo propia que se reutilizará en las sesiones 3 y 4.
@@ -235,6 +286,8 @@ Cada sesión sigue el mismo esquema: pregunta, guion con tiempos, contenido, opc
 - *Los cuatro enfoques de política exterior estadounidense* (Ashford, de tus notas). Tres ubicaciones: aquí, en el bloque final; en la sesión 4, al hablar de la credibilidad de las alianzas; o en la ampliación. Recomiendo la ampliación de esta sesión y una mención en la 4.
 - *Cuánta teoría.* Mínimo: las tres lecturas en 15 minutos. Si los estudiantes tienen otra asignatura de teoría de las RR. II., basta. Si no, puede hacer falta una diapositiva por teoría, recuperadas de `02_actores`.
 - *Orden económico.* Bretton Woods se menciona aquí y se desarrolla en la sesión 9. Alternativa: sacarlo del todo de esta sesión.
+- *Empezar en 1815 o en 1945.* Con Mazower tiene sentido abrir con cinco minutos sobre el Concierto de Europa y la Sociedad de Naciones, para que 1945 se vea como el tercer intento. El coste son cinco minutos en la sesión más apretada de fechas. Recomiendo hacerlo y pagar con el momento unipolar.
+- *Otros capítulos de Mazower aprovechables.* El 9 (el Segundo y el Tercer Mundo) para Bandung y la sesión 6; el 10 (el desarrollo como proyecto de orden mundial) y el 12 (el orden económico de los ochenta) para las sesiones 9 y 11; el 13 («Humanity's Law»), que es una crítica de la intervención humanitaria y la responsabilidad de proteger, para la sesión 8.
 
 **Problemas y soluciones.**
 
@@ -253,7 +306,7 @@ Cada sesión sigue el mismo esquema: pregunta, guion con tiempos, contenido, opc
 - `mapa_ampliacion_otan.png`: mapa propio con las oleadas de ampliación por colores.
 - `budapest_1994.jpg`: firma del memorándum con Clinton, Yeltsin y Kravchuk.
 
-**Lecturas.** FLS cap. 2 solo como referencia. Reseña de Ther en *The New Yorker* (en tus notas). Complementarias: Sarotte; Ikenberry frente a Mearsheimer.
+**Lecturas.** FLS cap. 2 solo como referencia. Mazower, *Governing the World*, introducción (hay traducción: *Gobernar el mundo*, Barlin; conviene confirmarlo). Reseña de Ther en *The New Yorker* (en tus notas). Complementarias: Mazower caps. 7 y 8; Sarotte; Ikenberry frente a Mearsheimer.
 
 **Seminario.** Sustituir el de Estados fallidos por uno sobre la ampliación de la OTAN con dos textos enfrentados, o mover aquí el de China y EE. UU.
 
@@ -371,7 +424,8 @@ Cada sesión sigue el mismo esquema: pregunta, guion con tiempos, contenido, opc
 - *Actores.* Rebeldes, milicias progubernamentales, grupos terroristas, mercenarios y empresas militares (Wagner y su sucesor), cárteles. Qué tienen en común con un Estado y qué no.
 - *Causas y formas.* Agravios, oportunidad y capacidad del Estado en versión breve. Guerra convencional, irregular y simétrica no convencional, y cómo el fin de la Guerra Fría cambió la mezcla (Kalyvas y Balcells).
 - *Apoyo externo.* Siria como guerra con media docena de patrocinadores; Sudán desde 2023; el M23 en el Congo. Por qué los Estados delegan y qué pierden al hacerlo.
-- *Gobernanza rebelde.* Los LTTE con tribunales, policía y aduanas; ISIS con impuestos y burocracia. La pregunta que deja abierta: si gobiernan como un Estado, ¿qué les falta para serlo? Respuesta: reconocimiento. Eso enlaza con la sesión 7.
+- *Gobernanza rebelde.* Los LTTE con tribunales, policía y aduanas; ISIS con impuestos y burocracia. La pregunta que deja abierta: si gobiernan como un Estado, ¿qué les falta para serlo? Respuesta: reconocimiento. Eso enlaza con la sesión 7. Un detalle que conviene dejar plantado: en la clasificación de Jo, los LTTE están entre los grupos que más civiles mataron. Gobernar no es lo mismo que contenerse, y la sesión 7 explica la diferencia.
+- *El M23, caso bisagra.* Jo lo analiza: tiene ala política, portavoz y campaña en redes, es decir, busca legitimidad exterior; pero su patrocinador, Ruanda, no la condiciona al trato a civiles, y el grupo no tiene base social amplia. Sirve aquí como ejemplo de apoyo externo y vuelve en la sesión 7 como caso intermedio. Su análisis llega hasta 2013; la toma de Goma en 2025 es la actualización.
 - *Terrorismo.* Definición como táctica y no como tipo de actor, y las lógicas estratégicas de Kydd y Walter. Un caso.
 - *Duración.* El problema de compromiso al desarmarse.
 - *Versión corta de Bevins* (tres diapositivas, solo si la sesión 6 se cae): Indonesia 1965 como violencia interna con patrocinio exterior.
@@ -433,7 +487,9 @@ Cada sesión sigue el mismo esquema: pregunta, guion con tiempos, contenido, opc
 
 **Opciones.**
 
-- *Cuánto leen.* Tres niveles: introducción y un capítulo (realista); una reseña larga más el documental; el libro entero como lectura voluntaria con incentivo en la nota. Recomiendo el primero.
+- *Cuánto leen.* Tres niveles: introducción y un capítulo (realista); una reseña larga más el documental; el libro entero como lectura voluntaria con incentivo en la nota. Recomiendo el primero. Con el índice delante, los capítulos son: introducción, 7 («Extermination», las matanzas) y, si se quiere un segundo, 9 («Jakarta Is Coming», Chile). El 2 da el contexto de la Indonesia independiente y el 5 el golpe de Brasil de 1964.
+- *El apéndice como diapositiva.* Bevins cierra con un recuento: programas de exterminio anticomunista respaldados por EE. UU. en al menos veintidós países entre 1945 y 1990, y la metáfora «Yakarta» rastreada en al menos once. Es su afirmación más fuerte y la más discutible; proyectarla y preguntar qué habría que saber para aceptarla es un buen arranque de la discusión.
+- *El puente con la sesión 7.* El libro cuenta la invasión indonesia de Timor Oriental en 1975, con el argumento de Suharto de que tenía el comunismo en la frontera y Washington temiendo «una Cuba en Asia». Es el mismo régimen y el mismo ejército contra los que luchan los rebeldes que la sesión 7 usa como caso. Cerrar la sesión 6 con Timor deja preparada la siguiente.
 - *Material audiovisual.* *The Act of Killing* (Oppenheimer, 2012), donde los perpetradores recrean los asesinatos. Un fragmento de cinco minutos en clase puede ser lo más memorable del curso; hay que avisar del contenido.
 - *Formato de discusión en un grupo grande.* Preguntas por parejas y puesta en común; o posiciones asignadas por filas («el libro exagera el papel de EE. UU.» frente a «lo demuestra»). Con más de 60 personas, una discusión abierta sin estructura no funciona.
 - *Otro libro.* Si prefieres uno con menos carga política, las alternativas son *Not One Inch* (Sarotte) tras la sesión 2 o un caso como Sudán. Ninguna cumple la función de desmontar el marco del Holocausto.
@@ -454,7 +510,7 @@ Cada sesión sigue el mismo esquema: pregunta, guion con tiempos, contenido, opc
 - `indonesia_1965_detenidos.jpg`: detenidos acusados de comunistas custodiados por soldados, 1965–1966.
 - `act_of_killing_still.jpg`: fotograma del documental.
 
-**Lecturas.** Bevins, introducción y un capítulo. Complementarias: Westad, *The Global Cold War*; Robinson, *The Killing Season* (2018).
+**Lecturas.** Bevins, introducción y cap. 7. Complementarias: Bevins caps. 2 y 9; Mazower, *Governing the World*, cap. 9; Westad, *The Global Cold War*; Robinson, *The Killing Season* (2018).
 
 ## Sesión 7. Las leyes de la guerra
 
@@ -477,25 +533,34 @@ Cada sesión sigue el mismo esquema: pregunta, guion con tiempos, contenido, opc
 
 - *Las reglas.* Código Lieber, La Haya, Convenios de 1949, Protocolos de 1977, Estatuto de Roma. Tres principios: distinción, proporcionalidad, necesidad. La diferencia entre el derecho a ir a la guerra y el derecho en la guerra: una guerra ilegal puede librarse legalmente y al revés.
 - *Estados.* Reciprocidad (el trato a prisioneros en el frente occidental frente al oriental en la Segunda Guerra Mundial), reputación, tipo de régimen. Y los límites: las democracias que temen perder o quieren ahorrar bajas propias también atacan a civiles (Downes).
-- *Rebeldes.* El núcleo nuevo:
-    - El rompecabezas: no han firmado nada y nadie puede sancionarlos, pero algunos se contienen y hasta firman compromisos.
-    - El argumento: los que necesitan apoyo externo y reconocimiento tienen incentivos para cumplir (Jo; Stanton). Los secesionistas, que quieren entrar en el club de los Estados, sobre todo (Fazal).
-    - Cómo se ve: compromisos formales ante Geneva Call (minas, menores), códigos de conducta, oficinas en el extranjero (Huang).
-    - El matiz: depende del patrocinador. Si el dinero viene de fuera y no de la población, el grupo puede permitirse abusar más (Salehyan, Siroky y Wood). La dependencia de un patrocinador al que le importan los derechos humanos contiene; la de uno al que no, libera.
-    - Un contraste: un grupo que busca reconocimiento frente a uno que no (RUF, LRA, ISIS). Siria tras 2024 como caso vivo de un grupo armado que modera su conducta para obtener legitimidad exterior.
-    - Lo que enseña: la frontera entre Estado y no-Estado es de grado; el derecho funciona por audiencias e incentivos.
+- *Rebeldes.* El núcleo nuevo, ya con Jo y Stanton leídos:
+    - *El rompecabezas.* No han firmado nada y nadie puede sancionarlos, pero muchos se contienen. El dato de Stanton: de 103 grupos rebeldes activos desde 1989, el 42 % evitó en general atacar a civiles. La contención no es una rareza.
+    - *El argumento de Jo.* Los grupos que buscan legitimidad cumplen más que los indiferentes a ella. Tres señales de que un grupo la busca: tiene un ala política con programa, tiene lazos estrechos con una población a la que dice representar (los secesionistas, sobre todo), y su patrocinador exterior da importancia a los derechos humanos. Lo comprueba en tres conductas: matar civiles, reclutar menores y dejar entrar a la Cruz Roja en sus centros de detención.
+    - *El argumento de Stanton.* Parecido, con otro énfasis: cuanto más amplia es la audiencia a la que un bando tiene que convencer, dentro y fuera, más le cuesta la violencia. Los rebeldes que se enfrentan a una dictadura tienen además un incentivo particular: contenerse para que el contraste con el gobierno atraiga apoyo internacional. Vale igual para los gobiernos, y esa es la mitad que el borrador 2 no tenía: las democracias se contienen más en guerras civiles porque su público ve la violencia en casa.
+    - *El caso principal: Timor Oriental y Aceh* (Stanton, cap. 5). Dos insurgencias separatistas contra la Indonesia de Suharto, Fretilin y GAM. Las dos tenían una base étnica estrecha y, por tanto, margen para atacar a civiles javaneses; ninguna lo hizo de forma deliberada. Timor Oriental acabó con referéndum bajo supervisión de la ONU e independencia; Aceh, con un acuerdo de autonomía. Viene de la sesión 6: es el mismo ejército de 1965.
+    - *El contraste: el LRA de Uganda* (Stanton, cap. 8). Sin programa político reconocible ni población a la que rendir cuentas, y con violencia extrema. Primeras órdenes de detención de la CPI.
+    - *El cambio en el tiempo: el MILF de Filipinas* (Jo, cap. 6). Un grupo que reclutaba menores y deja de hacerlo, hasta firmar un plan de acción con la ONU en 2009, a medida que gana peso su programa político y busca interlocutores fuera. Tienes diapositivas del conflicto moro en `10_postwar_TJ`.
+    - *El caso intermedio: el M23* (Jo, cap. 5). Busca legitimidad exterior pero su patrocinador no se la condiciona. Viene de la sesión 5.
+    - *El matiz.* Jo lo dice expresamente: no sostiene que los grupos que buscan legitimidad cumplan siempre. Y el patrocinador importa en los dos sentidos: uno al que le importan los derechos humanos contiene; uno al que no, libera (es también el resultado de Salehyan, Siroky y Wood).
+    - *El presente.* Siria tras 2024 como caso vivo de un grupo armado que modera su conducta para obtener legitimidad exterior. Los datos de ambos libros acaban hacia 2010; este bloque es extrapolación tuya y hay que presentarlo así.
+    - *Lo que enseña.* La frontera entre Estado y no-Estado es de grado; el derecho funciona por audiencias e incentivos; y la sesión 1 ya lo había mostrado con los griegos de 1821.
 - *El presente.* Gaza: proporcionalidad, medidas de la CIJ, órdenes de la CPI. Ucrania: Bucha, prisioneros, orden contra Putin. EE. UU.: sanciones a la CPI y el desdén por las reglas de enfrentamiento que tienes anotado. La pregunta: ¿qué pasa con un sistema basado en reputación cuando el más poderoso dice que la reputación no le importa?
 
 **Opciones.**
 
-- *Qué grupo rebelde usar como caso principal.* Criterios: documentado, con variación en el tiempo y fácil de contar. Candidatos: el SPLM/A de Sudán del Sur (secesionista, firmó compromisos, obtuvo Estado), el GAM de Aceh, o el caso sirio actual. Recomiendo uno histórico cerrado y Siria como contrapunto abierto. Hay que elegirlo leyendo a Jo y a Stanton; no lo fijo aquí.
+- *Qué grupo rebelde usar como caso principal.* Decidido tras leer a Jo y a Stanton: Timor Oriental y Aceh como caso principal, el LRA como contraste. Razones: Stanton les dedica un capítulo entero cada uno, con narración utilizable; continúan la sesión 6; y Timor Oriental termina en Estado reconocido, que es el final que el argumento predice. El SPLM de Sudán del Sur, que proponía en el borrador 2, aparece en la lista de cumplidores de Jo pero sin estudio de caso; queda como mención.
+- *Cuántos casos.* Cuatro grupos en 25 minutos son demasiados. Núcleo: Timor y Aceh frente al LRA. El MILF y el M23, una diapositiva cada uno o a la ampliación. Si solo cabe uno más, el MILF, porque muestra cambio dentro de un mismo grupo y eso convence más que comparar grupos distintos.
+- *La tabla de Jo como ejercicio.* Su tabla 5.1 lista cumplidores (Fretilin, SPLM, los kurdos iraquíes y iraníes, la guerrilla guatemalteca) y no cumplidores (LRA, LTTE, Sendero Luminoso, Renamo, Al Qaeda, el FPR ruandés). Proyectarla y preguntar qué tienen en común los de cada columna funciona mejor que explicar la teoría primero.
+- *La otra mitad de Stanton: los gobiernos.* Tiene capítulos sobre la contención y la violencia de los gobiernos de Indonesia, Turquía y Sudán. Reforzaría el bloque de por qué cumplen los Estados con casos de guerra civil y no solo interestatal. Va en la ampliación.
 - *Armas prohibidas.* Minas, químicas, el tabú nuclear. Buen material sobre cómo nace una norma; va en la ampliación para no desviar.
 - *Armas autónomas y drones.* Si no caben en la sesión 4, una diapositiva aquí: quién responde cuando decide una máquina.
 - *Normas en general* (ciclo de vida, emprendedores). En 2026 estaba en esta zona. Se reparte: el ciclo de vida se explica aquí en una diapositiva con la Cruz Roja como ejemplo; las redes de activismo van a la sesión 8.
 
 **Problemas y soluciones.**
 
-- *El argumento sobre los rebeldes es de investigación reciente y puede quedar abstracto.* Tiene que contarse con un caso con nombres y fechas, y con el contraste. Si no hay caso bueno, no funciona.
+- *El argumento sobre los rebeldes es de investigación reciente y puede quedar abstracto.* Tiene que contarse con un caso con nombres y fechas, y con el contraste. Con Timor, Aceh y el LRA ya lo hay.
+- *Sesgo de selección en el caso feliz.* Timor Oriental se contuvo y obtuvo Estado; es tentador contarlo como causa y efecto. Hubo también un cambio de régimen en Indonesia en 1998 y una matanza filmada en 1991 que movilizó a la opinión exterior. Decirlo.
+- *«Cumplir» está definido con umbrales.* Para Jo, cumplidor es quien mata a menos de cien civiles y se abstiene más de la mitad de sus años activos. Es contención relativa, no conducta ejemplar. Si no se explica, la palabra engaña.
 - *Riesgo de simplificar hasta el error.* «Los rebeldes que quieren reconocimiento se portan bien» es falso como regla general. Decir que es una tendencia con excepciones, y dar el matiz del patrocinador.
 - *Gaza.* Es el tema más sensible del curso. Tratarlo como problema jurídico concreto: qué dice la regla de proporcionalidad, qué han dicho la CIJ y la CPI, qué se discute. Separar con claridad lo que es hecho establecido, lo que es calificación jurídica en disputa y lo que es opinión. Incluir también el 7 de octubre como violación de las mismas reglas.
 - *Vocabulario jurídico.* Reducirlo a los tres principios. No entrar en la tipología de conflictos armados.
@@ -510,7 +575,11 @@ Cada sesión sigue el mismo esquema: pregunta, guion con tiempos, contenido, opc
 - `prisioneros_frente_oriental.jpg`: prisioneros soviéticos en 1941, para el contraste de reciprocidad.
 - `cij_sudafrica_israel.jpg`: la sala de la CIJ en enero de 2024.
 
-**Lecturas.** FLS cap. 11. Jo, *Compliant Rebels* (introducción). Complementarias: Morrow (2007); Fazal, *Wars of Law*; Stanton.
+- `santa_cruz_dili_1991.jpg`: fotograma de la matanza del cementerio de Santa Cruz en Dili, filmada por Max Stahl.
+- `timor_referendum_1999.jpg`: colas de votantes en la consulta de 1999.
+- `lra_kony.jpg`: Joseph Kony con combatientes del LRA.
+
+**Lecturas.** FLS cap. 11. Jo, *Compliant Rebels*, cap. 1 (el argumento está entero ahí). Complementarias: Stanton, introducción y cap. 5; Jo, cap. 6 (MILF); Morrow (2007); Fazal, *Wars of Law*.
 
 **Seminario.** Crímenes de guerra en Ucrania (Gessen), como en 2026.
 
@@ -543,11 +612,16 @@ Detrás del cierre, **para ampliar**: *The Justice Cascade* en detalle (10 a 12 
 
 **Bloque de ampliación: *The Justice Cascade*.**
 
-- La tesis de Sikkink: una norma nueva (los responsables individuales pueden y deben ser juzgados) que nace en la periferia —Grecia, Portugal, Argentina— y se difunde.
-- Cómo se difunde: personas concretas que viajan de un proceso a otro.
-- La evidencia: los países que juzgan no se desestabilizan y reprimen menos después (Kim y Sikkink).
-- Las críticas: los juicios pueden bloquear salidas negociadas (Snyder y Vinjamuri); la norma se aplica a los débiles; ¿sigue en pie tras las sanciones a la CPI?
-- Una pregunta para discutir: ¿habría sido mejor o peor la transición española con juicios?
+Siguiendo la estructura del libro:
+
+- *Tres modelos de rendición de cuentas.* Es el esquema que ordena todo y cabe en una diapositiva. Impunidad: ni el Estado ni sus agentes responden (la regla hasta 1945; los dictadores se retiraban a un exilio cómodo). Responsabilidad del Estado: el Estado firma tratados y se le señala si los incumple, pero nadie va a la cárcel (el modelo de la ONU y de casi todos los tratados). Responsabilidad penal individual: se juzga a personas, con garantías.
+- *Tres ideas que sostienen la norma nueva.* Las violaciones más graves no pueden ser actos legítimos de Estado; quienes las cometen pueden y deben ser juzgados; y los acusados tienen derecho a un juicio justo. Lo tercero es lo que distingue un juicio de derechos humanos de un juicio político: Sikkink pone el fusilamiento de Ceaușescu como ejemplo de lo que no cuenta.
+- *Dónde nace* (cap. 2 y 3). No en Núremberg ni en las grandes potencias, sino en la periferia: Grecia juzga a su junta en 1975, Portugal lo intenta, Argentina lo hace en 1985. El capítulo griego se titula «Navigating Without a Map»: nadie sabía si se podía. Enlaza con Grecia en la sesión 1.
+- *Cómo se difunde* (cap. 4). Personas concretas que llevan la experiencia de un país a otro y a los tribunales internacionales. Sikkink cuenta el caso de Juan Méndez, preso político argentino adoptado por Amnistía y luego jurista internacional. Sirve para enseñar que una «norma» son personas.
+- *Si funciona* (caps. 5 y 6). Su evidencia: los países de América Latina que juzgaron no se desestabilizaron, y los países con juicios reprimen menos después.
+- *El límite* (cap. 7). Un capítulo entero sobre si EE. UU. es inmune a la cascada, escrito tras las torturas de la guerra contra el terrorismo. Es el punto de entrada a lo actual: sanciones a la CPI, órdenes contra Putin y Netanyahu.
+- *Las críticas.* Los juicios pueden bloquear salidas negociadas (Snyder y Vinjamuri); la norma se aplica a los débiles; el libro es de 2011 y su optimismo es de entonces. Mazower, en el capítulo 13 de *Governing the World*, da la lectura escéptica del mismo proceso.
+- *Preguntas para discutir.* ¿Habría sido mejor o peor la transición española con juicios? Y, viniendo de la sesión 6: ¿por qué la cascada no llegó a Indonesia?
 
 **Opciones.**
 
@@ -574,7 +648,7 @@ Detrás del cierre, **para ampliar**: *The Justice Cascade* en detalle (10 a 12 
 - `duterte_la_haya_2025.jpg`: comparecencia ante la CPI.
 - `juicios_ddhh_tiempo.pdf`: gráfico propio del número de países con juicios por violaciones de derechos humanos por año, siguiendo el de Sikkink.
 
-**Lecturas.** FLS cap. 12. Sikkink (2011), introducción y capítulo sobre Argentina (hay traducción). Complementarias: Simmons; Snyder y Vinjamuri.
+**Lecturas.** FLS cap. 12. Sikkink (2011), caps. 1 y 3 (introducción y Argentina; hay traducción). Complementarias: Sikkink, caps. 2 (Grecia y Portugal) y 7 (EE. UU.); Mazower, *Governing the World*, cap. 13; Simmons; Snyder y Vinjamuri.
 
 **Seminario.** *Argentina, 1985* y el bloque de Sikkink; o el de El Salvador, que ya tenéis.
 
@@ -710,6 +784,8 @@ Detrás del cierre, **para ampliar**: *The Justice Cascade* en detalle (10 a 12 
 **Opciones.**
 
 - *Qué par de países abre.* Corea y Ghana, Corea y Zambia (el de FLS, ya hecho), o Corea del Norte y del Sur (el más limpio para instituciones, el menos útil para política económica). Para enlazar con la sesión 12 conviene un par Asia-África.
+- *Botsuana, con cuidado.* En 2026 Botsuana era el ejemplo de que con buenas instituciones los recursos no son una maldición, que es como la usan Acemoglu y Robinson. Studwell la cuenta de otro modo: creció dieciocho veces en renta per cápita desde 1960, pero sin política agraria ni industrial inclusiva, y hoy tiene desempleo crónico y una de las sociedades más desiguales del mundo. Su contraste es Mauricio, que creció menos pero repartió. Conviene presentar Botsuana en la sesión 11 como éxito institucional y dejar la objeción para la 12; o, si la 12 se cae, añadir aquí una diapositiva con Mauricio.
+- *El punto de partida africano.* Studwell da tres factores que encajan en el bloque de geografía y legado colonial y que no estaban en el *deck*: densidad de población muy baja, que hace inviables mercados e infraestructuras; un colonialismo «de bajo presupuesto», de enclaves mineros y gobierno indirecto a través de jefes locales; y un déficit educativo sin equivalente (en 1959 terminaron secundaria 136 personas en todo el Congo belga). Dos de esas cifras en una diapositiva cambian la conversación sobre «por qué África».
 - *Cuánto Acemoglu y Robinson.* En 2026 ocupaban buena parte, y el seminario leía un capítulo de *Why Nations Fail*. Con Studwell detrás, que en parte los contradice, conviene presentarlos como una posición entre varias.
 - *Ayuda al desarrollo.* El debate Sachs, Easterly y Deaton tenía sección propia. Puede reducirse a una diapositiva o pasar a la ampliación; desde los recortes de 2025 a la cooperación estadounidense es más actual, pero no es el centro.
 
@@ -736,28 +812,42 @@ Detrás del cierre, **para ampliar**: *The Justice Cascade* en detalle (10 a 12 
 - Contradicen dos ideas cómodas: que basta con buenas instituciones y que basta con abrir mercados.
 - El segundo libro pone a prueba al primero en otro continente, lo que permite discutir qué viaja y qué no.
 
-**Advertencia.** *How Asia Works* lo conozco bien y tienes notas tuyas. De *How Africa Works* (2026) solo conozco las líneas generales por reseñas: que aplica el mismo esquema, que da mucho peso a la baja densidad de población histórica y a la demografía, y que estudia varios países con mejores resultados (creo que Botsuana, Mauricio, Etiopía y Ruanda). No lo he podido contrastar; el guion de esa mitad hay que cerrarlo con el libro delante. Tampoco me consta traducción al castellano de ninguno de los dos.
+**Estado de las fuentes.** *How Africa Works* ya lo he leído en lo esencial (introducción, aperturas de las tres partes y conclusión), y este guion sale de ahí. *How Asia Works* no pude abrirlo (el archivo es `.mobi`); para él sigo tus notas y el resumen que Studwell hace en la introducción del segundo libro. No me consta traducción al castellano de ninguno. Un dato que hay que dar en clase: el libro de África se escribió con financiación de la Fundación Gates y la Omidyar Network, y Studwell cuenta que empezó tras ser invitado por los gobiernos de Etiopía y Ruanda.
 
 **Guion.**
 
 | Min | Bloque |
 |:--:|:--------------------------------------------------------------|
 | 5 | Apertura: la pregunta que quedó abierta |
-| 25 | *How Asia Works*: las tres políticas y por qué el noreste sí y el sureste no |
-| 20 | *How Africa Works*: qué cambia al cruzar el Índico |
-| 25 | Discusión |
+| 20 | Asia: las tres políticas y por qué el noreste sí y el sureste no |
+| 10 | África: por qué el punto de partida era otro |
+| 20 | África: cuatro países y un ingrediente nuevo |
+| 20 | Discusión |
 | 5 | Enlace con el cierre |
 
 **Contenido.**
 
-- *Asia.* Siguiendo tus notas: reforma agraria que acaba con la concentración de la tierra y con rentistas y usureros, y crea pequeños productores intensivos; industria protegida pero obligada a exportar; finanzas subordinadas a las dos anteriores. Japón, Corea y Taiwán lo hicieron; Filipinas, Indonesia, Tailandia y Malasia, no o a medias. El papel de actores externos: las reformas agrarias bajo ocupación o presión estadounidense tras 1945. China como caso que confirma la secuencia.
-- *África.* Las condiciones de partida distintas (densidad, demografía, Estados recientes con fronteras heredadas, lo que enlaza con la sesión 1) y los casos de éxito relativo.
-- *Discusión.* ¿Hace falta un Estado autoritario para disciplinar a los empresarios? ¿Siguen siendo posibles esas políticas con las reglas comerciales actuales? ¿Dónde quedan las instituciones de Acemoglu y Robinson? ¿Qué pinta la política internacional —Guerra Fría entonces, China ahora— en que un país pueda hacerlo?
+- *Asia.* Siguiendo tus notas: agricultura familiar de alto rendimiento, tras una reforma agraria que acaba con rentistas y usureros; industria protegida pero obligada a exportar; finanzas subordinadas a las dos anteriores, con control de capitales. Japón, Corea y Taiwán lo hicieron; Filipinas, Indonesia, Tailandia y Malasia, no o a medias. El papel de actores externos: las reformas agrarias bajo ocupación o presión estadounidense tras 1945. China como caso que confirma la secuencia.
+- *África, el punto de partida.* Tres factores históricos, que Studwell contrapone a las explicaciones habituales por corrupción o violencia étnica:
+    - Densidad de población crónicamente baja, por la carga de enfermedades, los suelos y la trata. Sin mercados concentrados ni mano de obra, y con infraestructuras carísimas por habitante. Su predicción: en 2030 África tendrá la densidad que tenía Asia en 1960, cuando empezó su despegue.
+    - Colonialismo «de bajo presupuesto»: enclaves mineros y agrícolas desconectados del resto, y gobierno a través de jefes tradicionales, que deja a los países sin experiencia política nacional. En la docena de colonias de colonos blancos, además, una desigualdad de la tierra que los gobiernos independientes no deshicieron sino que heredaron.
+    - Condiciones iniciales: sociedades dispersas y fragmentadas, y el déficit educativo (alfabetización adulta del 16 % en 1960).
+- *África, los cuatro que arrancaron.* Botsuana y Mauricio desde la independencia; Etiopía y Ruanda desde los noventa. La tesis: las políticas que funcionaron son las mismas que en Asia; no hay excepción africana. Lo que cambia es la dificultad de aplicarlas.
+    - Botsuana frente a Mauricio es el contraste que mejor se enseña: la primera se hizo rica con diamantes bien administrados y sin política industrial, y es muy desigual; la segunda siguió la receta asiática y repartió.
+    - Etiopía es la apuesta más explícita por el modelo: agricultura primero, pobreza extrema del 69 % al 31 % en veinte años.
+- *El ingrediente nuevo: la coalición.* Es lo que el segundo libro añade al primero. En países donde ningún grupo étnico llega a la mitad de la población, nada es posible sin una coalición política que ponga el desarrollo por encima del reparto étnico. En Botsuana y Mauricio fue democrática; en Etiopía y Ruanda, impuesta por un líder autoritario. Enlaza con la sesión 1 (fronteras coloniales y Estados sin nación) y con Mylonas.
+- *Discusión.*
+    - ¿Es el argumento demográfico una explicación o una forma de decir que había que esperar?
+    - Dos de los cuatro éxitos son autocracias, y una de ellas, Etiopía, entró en guerra civil en 2020. ¿Qué queda de la «coalición»? No he comprobado cómo trata el libro la guerra de Tigray; hay que mirarlo antes de la clase.
+    - ¿Dónde quedan las instituciones de Acemoglu y Robinson? Studwell dice que su «colonialismo de bajo presupuesto» tiene ecos de las instituciones extractivas, pero su Botsuana no es la de ellos.
+    - ¿Siguen siendo posibles esas políticas con las reglas comerciales actuales y con la automatización de la manufactura?
+    - ¿Qué pinta la política internacional —Guerra Fría entonces, China y los donantes ahora— en que un país pueda hacerlo? El último capítulo discute si la ayuda ayuda.
 
 **Opciones.**
 
-- *Un libro o dos.* Con dos, la comparación es más interesante y la carga de lectura mayor. Si solo uno, *How Asia Works*, y África en la discusión.
-- *Qué leen.* Un capítulo de cada uno (la parte de tierra de Asia y la introducción de África), en inglés, o reseñas largas. Para estudiantes con poco inglés, las reseñas son lo realista.
+- *Un libro o dos.* Los dos. Resulta que no duplica la lectura: la introducción de *How Africa Works* resume las tres políticas de Asia en cuatro párrafos y luego plantea el argumento africano entero.
+- *Qué leen.* Solo esa introducción, en inglés, que es corta y está escrita para público general. Para quien quiera más, el capítulo de Mauricio o el de Etiopía.
+- *Qué país africano desarrollar.* No caben los cuatro. Botsuana y Mauricio como par, por el contraste y porque Botsuana ya viene de la sesión 11. Etiopía es más importante por tamaño pero más arriesgada por la guerra. Ruanda («Singapur en África central», la titula) es la más polémica y la que más interés despertará; a la ampliación.
 - *Formato alternativo.* Un debate con dos mitades del aula: «la receta de Studwell es replicable hoy» frente a «era de su tiempo y lugar».
 - *Sustituirla.* Si no te convence, el hueco lo ocuparía *The Justice Cascade* como sesión de libro (ver sesión 8).
 
@@ -766,6 +856,9 @@ Detrás del cierre, **para ampliar**: *The Justice Cascade* en detalle (10 a 12 
 - *Es la primera candidata a caer*, y la que más preparación tuya exige (un libro nuevo). No prepararla hasta saber, hacia marzo, si hay hueco. La versión corta en la sesión 11 sí se prepara desde el principio.
 - *Idioma.* Sin traducción, la lectura obligatoria no puede ser larga.
 - *Dos libros de un mismo autor en una clase* puede parecer publicidad. Presentar el esquema como hipótesis y llevar a los críticos (quienes subrayan la geopolítica o las instituciones previas).
+- *Es un libro optimista y financiado por donantes, sobre gobiernos que invitaron al autor.* No lo invalida, pero hay que decirlo y preguntar qué casos no habría elegido alguien sin esa relación.
+- *El libro es de 2026 y aún no tiene crítica académica asentada.* La sesión no puede apoyarse en un debate publicado, como sí ocurre con el de Asia. La discusión la tienen que armar las preguntas.
+- *Riesgo de «África» como unidad.* Cincuenta y cinco países. El propio Studwell insiste en la disparidad; el gráfico propio debe mostrar líneas de países, no una media continental.
 - *Redundancia con la sesión 11* si aquella explica ya Asia oriental. Ver arriba.
 - *Fin de curso.* Cae en abril, con trabajos y exámenes cerca. Carga de lectura mínima.
 
@@ -777,7 +870,10 @@ Detrás del cierre, **para ampliar**: *The Justice Cascade* en detalle (10 a 12 
 - `posco_pohang.jpg`: la acería de Pohang en los setenta.
 - `pib_asia_africa_tiempo.pdf`: gráfico propio de PIB per cápita desde 1960 para ocho países de las dos regiones.
 
-**Lecturas.** Studwell, un capítulo de cada libro o reseñas. Complementarias: Amsden; Wade; Mkandawire (2001) sobre Estados desarrollistas en África.
+- `densidad_poblacion_africa_asia.pdf`: gráfico propio de densidad de población de África subsahariana y Asia oriental desde 1950, con proyección a 2050.
+- `mauricio_zona_franca.jpg`: taller textil de la zona franca de Mauricio en los años ochenta.
+
+**Lecturas.** Studwell, *How Africa Works*, introducción. Complementarias: caps. 4 y 5 (Botsuana y Mauricio) o 6 (Etiopía); *How Asia Works*, parte 1 (tierra); Herbst, *States and Power in Africa*, que es de donde viene el argumento de la densidad; Mkandawire (2001); Amsden; Wade.
 
 ## Sesión 13. Cierre: el cambio climático como caso total
 
@@ -851,6 +947,8 @@ Detrás del cierre, **para ampliar**: *The Justice Cascade* en detalle (10 a 12 
 | EE. UU. y China | 2 (orden), 4 (Taiwán), 9 (*shock* chino), 10 (chips), 12 (desarrollo), 13 (tecnología verde) |
 
 Gaza aparece en menos sesiones que los otros dos. Es razonable: cuanto más concentrado, más fácil tratarlo con cuidado.
+
+A estos tres hilos de actualidad se suman ahora los tres países históricos de la sección 3.8 (Grecia, Indonesia, Argentina) y el hilo del reconocimiento de la 3.9. Son seis recorridos transversales. Es suficiente; añadir más los diluiría.
 
 ## 6.3. Problemas del conjunto y cómo abordarlos
 
@@ -942,13 +1040,13 @@ Lista provisional de los casos que un estudiante debería poder explicar. Los ma
 | Fundamentos | Grecia 1821*; intercambio greco-turco 1923; descolonización africana; Helsinki 1975*; ampliación de la OTAN* |
 | Guerra | Julio de 1914*; Cuba 1962*; Irak 2003; Ucrania 2014–2022*; Taiwán |
 | Violencia interna | Indonesia 1965*; Sri Lanka y los LTTE; Siria*; Sudán desde 2023; 11-S |
-| Reglas | Ginebra 1949; un grupo rebelde por decidir*; Gaza desde 2023*; Argentina 1976–1985*; Pinochet 1998; El Salvador hoy |
-| Economía | *Shock* chino*; Argentina 2001; sanciones a Rusia*; guerra de los chips; Corea del Sur*; un caso africano por decidir |
+| Reglas | Ginebra 1949; Timor Oriental y Aceh*; el LRA de Uganda; Gaza desde 2023*; Argentina 1976–1985*; Pinochet 1998; El Salvador hoy |
+| Economía | *Shock* chino*; Argentina 2001; sanciones a Rusia*; guerra de los chips; Corea del Sur*; Botsuana y Mauricio; Etiopía |
 | Cierre | Montreal 1987; París 2015 |
 
 **La ficha.** Una página con cinco apartados fijos: qué pasó (150 palabras), cronología de cinco fechas, actores, por qué importa para el curso (qué sesión, qué idea), y una lectura.
 
-**Quién las escribe.** Veintinueve fichas son mucho trabajo. Propuesta: tú escribes las catorce con asterisco, una por sesión aproximadamente, y las demás se encargan como actividad de seminario o como formato de las presentaciones si se hacen. Las de los estudiantes se revisan y se cuelgan, y sirven para el año siguiente.
+**Quién las escribe.** Treinta y una fichas son mucho trabajo. Propuesta: tú escribes las catorce con asterisco, una por sesión aproximadamente, y las demás se encargan como actividad de seminario o como formato de las presentaciones si se hacen. Las de los estudiantes se revisan y se cuelgan, y sirven para el año siguiente.
 
 **Uso en el examen.** Toda respuesta debe apoyarse en al menos dos casos del canon, y uno no puede ser el caso principal de la sesión a la que corresponde la pregunta.
 
@@ -1032,9 +1130,31 @@ No propongo cambiar los porcentajes. Ajustes:
 
 # 10. Referencias para añadir
 
+## 10.1. Los libros de `_hiddenrefs`: qué usar de cada uno
+
+| Libro | Sesión | Qué leer tú | Qué asignar |
+|:----------------------|:--:|:----------------------------|:----------------------|
+| Cederman y coautores (2024) | 1 | Introducción, caps. 5 y 6 (tamaño y forma de los Estados), 8 (restauración), 11 | Introducción |
+| Mazower, *The Greek Revolution* | 1 | Introducción, caps. 11 (préstamos), 14 y 17 (opinión europea y Navarino), 18 | Nada, o la introducción |
+| Mylonas (2012) | 1 | Cap. 1 y 2 (teoría) | Nada |
+| Mazower, *Governing the World* | 2 | Introducción, caps. 7 y 8; 9 para la sesión 6; 13 para la 8 | Introducción |
+| Bevins | 6 | Entero | Introducción y cap. 7 |
+| Jo | 7 | Caps. 1 y 3 (argumento), 5 y 6 (M23 y MILF) | Cap. 1 |
+| Stanton | 7 | Introducción, caps. 1, 5 (Aceh y Timor) y 8 (LRA) | Nada, o la introducción |
+| Sikkink | 8 | Caps. 1 a 4 y 7 | Caps. 1 y 3 |
+| Studwell, *How Africa Works* | 12 | Introducción, caps. 4 a 6 y 10 | Introducción |
+| Studwell, *How Asia Works* | 12 | Parte 1 | Nada |
+
+La columna «qué leer tú» es mi estimación de lo mínimo para preparar cada clase con seguridad, a partir de los índices y de lo que leí; no sustituye tu criterio una vez dentro de cada libro.
+
+## 10.2. Otras referencias
+
 Solo las que no están ya en `resources.md`. Marco con (N) las que salen de tus notas.
 
 **Estado y nación (sesión 1)**
+
+- Cederman, Girardin, Müller-Crepon y coautores, *Nationalism and the Transformation of the State* (Cambridge, 2024; acceso abierto).
+- Mylonas, *The Politics of Nation-Building: Making Co-Nationals, Refugees, and Minorities* (Cambridge, 2012).
 
 - Mazower, *The Greek Revolution* (2021). (N)
 - Wimmer y Min, «From Empire to Nation-State», *American Sociological Review* (2006); Wimmer, *Waves of War* (2013).
@@ -1048,6 +1168,7 @@ Solo las que no están ya en `resources.md`. Marco con (N) las que salen de tus 
 
 - Zacher, «The Territorial Integrity Norm», *IO* (2001); Altman, «The Evolution of Territorial Conquest after 1945», *IO* (2020); Hathaway y Shapiro, *The Internationalists* (2017).
 - Herbst, *States and Power in Africa* (2000); Getachew, *Worldmaking after Empire* (2019).
+- Mazower, *Governing the World: The History of an Idea* (2012).
 - Ikenberry, *After Victory* (2001); Mearsheimer, «Bound to Fail», *International Security* (2019); Lake, Martin y Risse, «Challenges to the Liberal Order», *IO* (2021).
 - Sarotte, *Not One Inch* (2021); Ther, *How the West Lost the Peace* y su reseña en *The New Yorker*. (N)
 - Thomas, *The Helsinki Effect* (2001).
@@ -1113,14 +1234,16 @@ No he comprobado contra tu Zotero cuáles tienes ya. Los datos bibliográficos e
 
 # 11. Decisiones abiertas
 
-1. **Grupo rebelde para la sesión 7.** Hay que elegir el caso principal leyendo a Jo y a Stanton.
-2. **Un libro de Studwell o dos** en la sesión 12, y qué se lee.
-3. **Dónde se trata *The Justice Cascade*:** en clase, en seminario (mi recomendación) o como tercera sesión de libro.
-4. **Migración:** bloque en la sesión 9, en la 13, solo seminario, o fuera.
-5. **FLS:** ¿sigue como manual obligatorio o pasa a recomendado?
-6. **El 30 % de las presentaciones** si no se hacen.
-7. **Parcial:** tras la sesión 6, como está, o tras la 8 para que cubra conflicto y reglas.
-8. **Qué ven en otras asignaturas** (teoría de RR. II., desarrollo, guerras civiles), para ajustar cuánto se repasa.
+Cerradas en este borrador: el grupo rebelde de la sesión 7 (Timor Oriental y Aceh frente al LRA) y la lectura de Studwell (los dos libros, con la introducción del segundo como única lectura). Si no te convencen, se reabren.
+
+1. **Dónde se trata *The Justice Cascade*:** en clase, en seminario (mi recomendación) o como tercera sesión de libro.
+2. **Migración:** bloque en la sesión 9, en la 13, solo seminario, o fuera.
+3. **FLS:** ¿sigue como manual obligatorio o pasa a recomendado? Con los libros nuevos, seis sesiones tienen ya una lectura mejor que el capítulo correspondiente.
+4. **El 30 % de las presentaciones** si no se hacen.
+5. **Parcial:** tras la sesión 6, como está, o tras la 8 para que cubra conflicto y reglas.
+6. **Qué ven en otras asignaturas** (teoría de RR. II., desarrollo, guerras civiles), para ajustar cuánto se repasa.
+7. **Los tres países que reaparecen** (sección 3.8): ¿se hacen explícitos, con una diapositiva propia cada vez, o se dejan como guiño?
+8. **La sesión 1 con tres libros:** ¿Cederman, Mazower y Mylonas en una hora, o uno de ellos pasa a la ampliación? Si hay que elegir, sacaría a Mylonas del núcleo.
 
 # 12. Plan de trabajo
 
@@ -1152,9 +1275,9 @@ Suponiendo que el curso empieza a finales de enero de 2027.
 
 **Noviembre (lo que queda).**
 
-- Cerrar las decisiones 1, 3, 5 y 8 de la sección 11.
+- Cerrar las decisiones 1, 3, 6 y 8 de la sección 11.
 - Cambios de preámbulo (sección 8.4) y un *deck* de prueba.
-- Lecturas tuyas: Jo y Stanton para elegir el caso de la sesión 7.
+- Lecturas tuyas, por orden de impartición (tabla de la sección 10.1): Cederman y Mazower para las sesiones 1 y 2.
 
 **Diciembre, primera mitad.**
 
@@ -1183,4 +1306,6 @@ Suponiendo que el curso empieza a finales de enero de 2027.
 
 ## 12.3. Qué puedo preparar yo
 
-Con las decisiones cerradas, puedo redactar los *decks* y sus notas siguiendo tu formato, los *scripts* de R para los gráficos, las fichas de caso en borrador y las guías de lectura. Lo que no puedo sustituir es tu lectura de los libros de las sesiones 6 y 12 y la elección del caso de la sesión 7.
+Con las decisiones cerradas, puedo redactar los *decks* y sus notas siguiendo tu formato, los *scripts* de R para los gráficos, las fichas de caso en borrador y las guías de lectura. Con los libros ya en `_hiddenrefs`, puedo además leer a fondo los capítulos concretos de cada sesión al preparar su *deck* (para este plan solo leí introducciones, resúmenes y pasajes clave) y sacar de ellos citas, cifras y cronologías con su página.
+
+Dos límites. *How Asia Works* tendría que estar en `.epub`, `.pdf` o `.txt` para poder leerlo. Y lo que no puedo sustituir es tu propia lectura de los libros de las sesiones 6 y 12, que son los que vas a discutir en el aula.
